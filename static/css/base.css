@@ -2,23 +2,40 @@ html {
     height: 100%;
 }
 
+.blue-color {
+    color: #5b80b2;
+}
+
+.white-color {
+    color: #FCF6F5FF;
+}
+
+.black-color {
+    color: #000000;
+}
+
+.para_size {
+    font-size: 1.8em;
+}
+
+.logo-size {
+    font-size: 2.5em;
+}
+
+.nav-tags-size {
+    font-size: 1.5em;
+}
+
+
+
 body {
-    background: url('/media/homepage_new.jpg') no-repeat center center fixed;
+    background: url('/media/whitebackground.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Architects Daughter', cursive;
 }
 
-
-/* from Bulma */
-.icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
-}
 
 .logo-font {
     text-transform: uppercase;
