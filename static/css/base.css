@@ -2,8 +2,14 @@ html {
     height: 100%;
 }
 
+/*Global Colors*/
+
 .blue-color {
     color: #5b80b2;
+}
+
+li {
+    list-style-type: none;
 }
 
 .white-color {
@@ -14,7 +20,9 @@ html {
     color: #000000;
 }
 
-.para_size {
+/*nav text size*/
+
+.nav-link-tsize {
     font-size: 1.8em;
 }
 
@@ -28,8 +36,9 @@ html {
 
 
 
+
 body {
-    background: url('/media/mewmew.jpg') no-repeat center center fixed;
+    background: url('/media/Test_background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
