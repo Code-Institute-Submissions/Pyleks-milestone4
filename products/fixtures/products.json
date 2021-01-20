@@ -1,0 +1,422 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps01",
+      "name": "Photoshop Introduction",
+      "description": "Get introduced to Photoshop 2021, with the most up to date tools and techniques, giving you a solid foundation to continue growing within digital arts.",
+      "Software": "Photoshop",
+      "price": 20.00,
+      "category": 1,
+      "rating": 4.1,
+      "image": "HoodieM-Fila001.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps02",
+      "name": "Photoshop Advanced",
+      "description": "Photoshop advanced provides a indept experience in the true power this application can provide, by transforming your images to match your imagination.",
+      "Software": "Photoshop",
+      "price": 25.00,
+      "category": 1,
+      "rating": 3.9,
+      "image": "HoodieM-Fila002.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps03",
+      "name": "Photoshop Professional",
+      "description": "By the time you finished this course you will have a deep understanding of retouching tools such as Clone stamp and Healing brushes, and going well beyond.",
+      "Software": "Adidas",
+      "price": 30.00,
+      "category": 1,
+      "rating": 4.1,
+      "image": "HoodieM-Adidas003.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps04",
+      "name": "Photoshop, Working with Faces",
+      "description": "Ever wanted to edit faces? now is your chance, we are going to deep dive into one of the most powerful set of tools Photoshop have to Offer, Liqify!",
+      "Software": "Photoshop",
+      "price": 19.00,
+      "category": 1,
+      "rating": 3.9,
+      "image": "HoodieM-Adidas004.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps05",
+      "name": "Photoshop Digital Beauty",
+      "description": "Learn how to edit any face and body to bring out the inner beauty.",
+      "Software": "Photoshop",
+      "price": 10.00,
+      "category": 1,
+      "rating": 4.1,
+      "image": "HoodieM-Adidas005.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps06",
+      "name": "Photoshop, How to liquify a 'human'",
+      "description": "We are brining Liquify to it's own chapter, as this tool can edit and shape any image in your portfolio.",
+      "Software": "Photoshop",
+      "price": 15.00,
+      "category": 1,
+      "rating": 4.4,
+      "image": "HoodieM-Champ006.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps07",
+      "name": "Photoshop, How to use lights",
+      "description": "Learn how to use lights, and bring your pictures to life with advanced techniques.",
+      "Software": "Photoshop",
+      "price": 15.00,
+      "category": 1,
+      "rating": 3.7,
+      "image": "HoodieM-Carhartt007.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps08",
+      "name": "Photoshop, Free Mask Special",
+      "description": "Masking is one of the more important features of Photoshop, don't miss out on our FREE masking course!",
+      "Software": "Photoshop",
+      "price": 0.0,
+      "category": 1,
+      "rating": 4.7,
+      "image": "HoodieM-G-star008.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps09",
+      "name": "Photoshop Masterclass",
+      "description": "Learn everything from brushes, to liquify. When finished with our class you can edit on a professional level with ease.",
+      "Software": "Photoshop",
+      "price": 40.00,
+      "category": 1,
+      "rating": 3.9,
+      "image": "HoodieM-GAP009.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "ps10",
+      "name": "Photoshop Masterclass Part 2",
+      "description": "We are brining Masterclass to new heights by introducing the pen tool for fine accurate edits where it matters.",
+      "Software": "Photoshop",
+      "price": 35.00,
+      "category": 1,
+      "rating": 2.7,
+      "image": "HoodieM-Levis010.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm01",
+      "name": "Lightroom Essentials",
+      "description": "Learn the lighting fast editing tools provided in Lightroom.",
+      "Software": "Lightroom",
+      "price": 10.00,
+      "category": 2,
+      "rating": 1.9,
+      "image": "HoodieF-Fila001.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm02",
+      "name": "From Darkroom to Lightroom in 1,2,3",
+      "description": "Used to work in Darkrooms? this course is tailored to match your experience, to bring you over to newly made Lightroom course.",
+      "Software": "Lightroom",
+      "price": 5.00,
+      "category": 2,
+      "rating": 3.9,
+      "image": "HoodieF-Fila002.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm03",
+      "name": "Lightroom 5 minute tips FREE",
+      "description": "Learn our best Lightroom tips for FREE!.",
+      "Software": "Lightroom",
+      "price": 25.99,
+      "category": 2,
+      "rating": 4.7,
+      "image": "HoodieF-Adidas003.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm04",
+      "name": "Lightroom for Digital Photographers",
+      "description": "Enjoy taking photos in the digital world? Learn how to improve your shots with Lightroom.",
+      "Software": "Lightroom",
+      "price": 10.00,
+      "category": 2,
+      "rating": 4.4,
+      "image": "HoodieF-Adidas004.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm05",
+      "name": "Lightroom for Faces",
+      "description": "Learn how to improve face quality in your shots.",
+      "Software": "Lightroom",
+      "price": 45.99,
+      "category": 2,
+      "rating": 4.1,
+      "image": "HoodieF-Adidas005.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm06",
+      "name": "Lightroom Masterclass",
+      "description": "Learn all powerful features to enhance your pictures with our fast and powerful workflow.",
+      "Software": "Lightroom",
+      "price": 40.00,
+      "category": 2,
+      "rating": 4.1,
+      "image": "HoodieF-Elise006.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm07",
+      "name": "Lightroom Certification",
+      "description": "Certify with us and become a Lightroom proffessional.",
+      "Software": "Lightroom",
+      "price": 20.99,
+      "category": 2,
+      "rating": 3.8,
+      "image": "HoodieF-Levis007.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm08",
+      "name": "Lightroom in Black and White",
+      "description": "See the power of black and white images with our quick introduction.",
+      "Software": "Lightroom",
+      "price": 10.00,
+      "category": 1,
+      "rating": 3.9,
+      "image": "HoodieF-Polo008.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm09",
+      "name": "Lightroom, Edit with Speed",
+      "description": "Tired of spending hours editing your images? Check out our course for fast results with little effort.", ,
+      "Software": "Lightroom",
+      "price": 5.00,
+      "category": 1,
+      "rating": 1.9,
+      "image": "HoodieF-Carhartt009.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "lm10",
+      "name": "Lightroom Precision Enhancements",
+      "description": "Learn to preform accurate precision enhancements on your photos.",
+      "Software": "Lightroom",
+      "price": 10.00,
+      "category": 2,
+      "rating": 3.9,
+      "image": "HoodieF-SuperD010.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri01",
+      "name": "Digital Painting with Krita",
+      "description": "Paint tools don't need to be expensive, learn Krita, a powerful tool with us.",
+      "Software": "Krita",
+      "price": 10.00,
+      "category": 3,
+      "rating": 2.9,
+      "image": "SweatshirtM-Kappa001.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri02",
+      "name": "Krita Masterclass",
+      "description": "Learn everything you need to know from basic to master with our Krita Masterclass",
+      "Software": "Krita",
+      "price": 35.99,
+      "category": 3,
+      "rating": 3.9,
+      "image": "SweatshirtM-Kappa002.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri03",
+      "name": "Krita Essentials",
+      "description": "Become familiar with the powerful designing tools Krita have to offer.",
+      "Software": "Krita",
+      "price": 29.99,
+      "category": 3,
+      "rating": 2.9,
+      "image": "SweatshirtM-Kappa003.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri04",
+      "name": "Krita Mask FREE",
+      "description": "Learn Masking in Krita complete free of cost for our members.", ,
+      "Software": "Krita",
+      "price": 0.00
+      "category": 3,
+      "rating": 4.9,
+      "image": "SweatshirtM-ABE004.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri05",
+      "name": "Krita Advanced",
+      "description": "Feel confident using Krita? sign up for our advance course to unleash your creativity on the digital canvas.",
+      "Software": "Krita",
+      "price": 10.00,
+      "category": 3,
+      "rating": 3.3,
+      "image": "SweatshirtM-Adidas005.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri06",
+      "name": "Krita, Edit any image",
+      "description": "Learn to edit any pictures with the powerful free digital tool Krita.", ,
+      "Software": "Krita",
+      "price": 5.00,
+      "category": 3,
+      "rating": 2.3,
+      "image": "SweatshirtM-Adidas006.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri0107",
+      "name": "Krita Getting Started with Digital Painting",
+      "description": "Become confident with a set of powerful tools with us.",
+      "Software": "Krita",
+      "price": 15.00,
+      "category": 3,
+      "rating": 4.3,
+      "image": "SweatshirtM-Alpha007.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri0108",
+      "name": "Krita Paintovers",
+      "description": "Join us doing paint over with Krita, and bring any picture to life.",
+      "Software": "Krita",
+      "price": 20.00,
+      "category": 3,
+      "rating": 4.1,
+      "image": "SweatshirtM-Alpha008.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri09",
+      "name": "Krita Brushes Special Edition",
+      "description": "Learn everything about Krita's wast selection of amazing and powerful brushes.", ,
+      "Software": "Champion",
+      "price": 10.00,
+      "category": 3,
+      "rating": 4.3,
+      "image": "SweatshirtM-Champion009.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "kri10",
+      "name": "Krita, Your First Painting Free",
+      "description": "Join our community and learn how to create your first digital painting in Krita",
+      "Software": "Krita",
+      "price": 5.00,
+      "category": 3,
+      "rating": 4.8,
+      "image": "SweatshirtM-Champion010.jpg"
+    }
+  }
+]
