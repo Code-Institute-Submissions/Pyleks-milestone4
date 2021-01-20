@@ -10,7 +10,7 @@
       "price": 20.00,
       "category": 1,
       "rating": 4.1,
-      "image": "HoodieM-Fila001.jpg"
+      "image": "Photoshop-Introduction.jpg"
     }
   },
   {
@@ -24,7 +24,7 @@
       "price": 25.00,
       "category": 1,
       "rating": 3.9,
-      "image": "HoodieM-Fila002.jpg"
+      "image": "Photoshop-Advanced.jpg"
     }
   },
   {
@@ -38,7 +38,7 @@
       "price": 30.00,
       "category": 1,
       "rating": 4.1,
-      "image": "HoodieM-Adidas003.jpg"
+      "image": "Photoshop-Professional.jpg"
     }
   },
   {
@@ -52,7 +52,7 @@
       "price": 19.00,
       "category": 1,
       "rating": 3.9,
-      "image": "HoodieM-Adidas004.jpg"
+      "image": "Photoshop-Faces.jpg"
     }
   },
   {
@@ -66,7 +66,7 @@
       "price": 10.00,
       "category": 1,
       "rating": 4.1,
-      "image": "HoodieM-Adidas005.jpg"
+      "image": "Photoshop-face-and-body.jpg"
     }
   },
   {
@@ -80,7 +80,7 @@
       "price": 15.00,
       "category": 1,
       "rating": 4.4,
-      "image": "HoodieM-Champ006.jpg"
+      "image": "Photoshop-Liquify.jpg"
     }
   },
   {
@@ -94,7 +94,7 @@
       "price": 15.00,
       "category": 1,
       "rating": 3.7,
-      "image": "HoodieM-Carhartt007.jpg"
+      "image": "Photoshop-Light.jpg"
     }
   },
   {
@@ -108,7 +108,7 @@
       "price": 0.0,
       "category": 1,
       "rating": 4.7,
-      "image": "HoodieM-G-star008.jpg"
+      "image": "Photoshop-Layermask.jpg"
     }
   },
   {
@@ -122,7 +122,7 @@
       "price": 40.00,
       "category": 1,
       "rating": 3.9,
-      "image": "HoodieM-GAP009.jpg"
+      "image": "Photoshop-Masterclass.jpg"
     }
   },
   {
@@ -136,7 +136,7 @@
       "price": 35.00,
       "category": 1,
       "rating": 2.7,
-      "image": "HoodieM-Levis010.jpg"
+      "image": "Photoshop-Masterclass-Part-2.jpg"
     }
   },
   {
@@ -150,7 +150,7 @@
       "price": 10.00,
       "category": 2,
       "rating": 1.9,
-      "image": "HoodieF-Fila001.jpg"
+      "image": "Lightroom-Essentials.jpg"
     }
   },
   {
@@ -164,7 +164,7 @@
       "price": 5.00,
       "category": 2,
       "rating": 3.9,
-      "image": "HoodieF-Fila002.jpg"
+      "image": "Lightroom-Dark-to-Light.jpg"
     }
   },
   {
@@ -178,7 +178,7 @@
       "price": 25.99,
       "category": 2,
       "rating": 4.7,
-      "image": "HoodieF-Adidas003.jpg"
+      "image": "Lightroom-tips.jpg"
     }
   },
   {
@@ -192,7 +192,7 @@
       "price": 10.00,
       "category": 2,
       "rating": 4.4,
-      "image": "HoodieF-Adidas004.jpg"
+      "image": "Lightroom-for-Digital-Photographers.jpg"
     }
   },
   {
@@ -206,7 +206,7 @@
       "price": 45.99,
       "category": 2,
       "rating": 4.1,
-      "image": "HoodieF-Adidas005.jpg"
+      "image": "Lightroom-for-Faces.jpg"
     }
   },
   {
@@ -220,7 +220,7 @@
       "price": 40.00,
       "category": 2,
       "rating": 4.1,
-      "image": "HoodieF-Elise006.jpg"
+      "image": "Lightroom-Masterclass.jpg"
     }
   },
   {
@@ -234,7 +234,7 @@
       "price": 20.99,
       "category": 2,
       "rating": 3.8,
-      "image": "HoodieF-Levis007.jpg"
+      "image": "lightroom-Certification.jpg"
     }
   },
   {
@@ -248,7 +248,7 @@
       "price": 10.00,
       "category": 1,
       "rating": 3.9,
-      "image": "HoodieF-Polo008.jpg"
+      "image": "Lightroom-Black-and-Wite.jpg"
     }
   },
   {
@@ -262,7 +262,7 @@
       "price": 5.00,
       "category": 1,
       "rating": 1.9,
-      "image": "HoodieF-Carhartt009.jpg"
+      "image": "Lightroom-with-Speed.jpg"
     }
   },
   {
@@ -276,7 +276,7 @@
       "price": 10.00,
       "category": 2,
       "rating": 3.9,
-      "image": "HoodieF-SuperD010.jpg"
+      "image": "Lightroom-Precision.jpg"
     }
   },
   {
@@ -290,7 +290,7 @@
       "price": 10.00,
       "category": 3,
       "rating": 2.9,
-      "image": "SweatshirtM-Kappa001.jpg"
+      "image": "Paint-with-Krita.jpg"
     }
   },
   {
@@ -304,7 +304,7 @@
       "price": 35.99,
       "category": 3,
       "rating": 3.9,
-      "image": "SweatshirtM-Kappa002.jpg"
+      "image": "Krita-Masterclass.jpg"
     }
   },
   {
@@ -318,7 +318,7 @@
       "price": 29.99,
       "category": 3,
       "rating": 2.9,
-      "image": "SweatshirtM-Kappa003.jpg"
+      "image": "Krita-Essentials.jpg"
     }
   },
   {
@@ -332,7 +332,7 @@
       "price": 0.00
       "category": 3,
       "rating": 4.9,
-      "image": "SweatshirtM-ABE004.jpg"
+      "image": "Krita-Mask.jpg"
     }
   },
   {
@@ -346,7 +346,7 @@
       "price": 10.00,
       "category": 3,
       "rating": 3.3,
-      "image": "SweatshirtM-Adidas005.jpg"
+      "image": "Krita-Advanced.jpg"
     }
   },
   {
@@ -360,7 +360,7 @@
       "price": 5.00,
       "category": 3,
       "rating": 2.3,
-      "image": "SweatshirtM-Adidas006.jpg"
+      "image": "Krita-Edit-Any-image.jpg"
     }
   },
   {
@@ -374,7 +374,7 @@
       "price": 15.00,
       "category": 3,
       "rating": 4.3,
-      "image": "SweatshirtM-Alpha007.jpg"
+      "image": "Krita-Getting-started.jpg"
     }
   },
   {
@@ -388,7 +388,7 @@
       "price": 20.00,
       "category": 3,
       "rating": 4.1,
-      "image": "SweatshirtM-Alpha008.jpg"
+      "image": "Krita-Paintover.jpg"
     }
   },
   {
@@ -402,7 +402,7 @@
       "price": 10.00,
       "category": 3,
       "rating": 4.3,
-      "image": "SweatshirtM-Champion009.jpg"
+      "image": "Krita-Brush-Special-Edition.jpg"
     }
   },
   {
@@ -416,7 +416,7 @@
       "price": 5.00,
       "category": 3,
       "rating": 4.8,
-      "image": "SweatshirtM-Champion010.jpg"
+      "image": "Krita-Your-First-Painting-free.jpg"
     }
   }
 ]
