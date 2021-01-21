@@ -246,7 +246,7 @@
       "description": "See the power of black and white images with our quick introduction.",
       "Software": "Lightroom",
       "price": 10.00,
-      "category": 1,
+      "category": 2,
       "rating": 3.9,
       "image": "Lightroom-Black-and-Wite.jpg"
     }
@@ -260,7 +260,7 @@
       "description": "Tired of spending hours editing your images? Check out our course for fast results with little effort.",
       "Software": "Lightroom",
       "price": 5.00,
-      "category": 1,
+      "category": 2,
       "rating": 1.9,
       "image": "Lightroom-with-Speed.jpg"
     }
