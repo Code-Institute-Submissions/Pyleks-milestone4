@@ -55,3 +55,5 @@ def bag_contents(request):
         'grand_total': grand_total
 
     }
+
+    return context
