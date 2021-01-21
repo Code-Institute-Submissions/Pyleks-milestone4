@@ -5,7 +5,6 @@ from .models import Product, Category
 
 # Create your views here.
 
-
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
@@ -17,7 +16,7 @@ def all_products(request):
 
     if request.GET:
         if 'sort' in request.GET:
-            sortkey = request.get['sort']
+            sortkey = request.GET['sort']
             sort = sortkey
             if sortkey == 'name':
                 sortkey = 'lower_name'
@@ -27,7 +26,6 @@ def all_products(request):
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
-
             products = products.order_by(sortkey)
 
         if 'category' in request.GET:
