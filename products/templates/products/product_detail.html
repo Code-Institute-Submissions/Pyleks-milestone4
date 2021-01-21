@@ -39,7 +39,7 @@
                     <p class="mt-3">{{ product.description }}</p>
                     {#                    Allow user to user to decide quantity, calls add_to_bag function to send the information#}
                     {#                    securely using csrf_token#}
-                    <form class="form" action="" method="POST">
+                    <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
                             <div class="col-12">
