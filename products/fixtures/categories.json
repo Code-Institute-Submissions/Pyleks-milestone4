@@ -12,7 +12,7 @@
     "model": "products.category",
     "fields": {
       "name": "Lightroom",
-      "friendly_name": "Photoshop"
+      "friendly_name": "Lightroom"
     }
   },
   {
@@ -20,7 +20,7 @@
     "model": "products.category",
     "fields": {
       "name": "Krita",
-      "friendly_name": "Photoshop"
+      "friendly_name": "Krita"
     }
   }
 ]

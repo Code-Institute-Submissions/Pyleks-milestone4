@@ -257,7 +257,7 @@
     "fields": {
       "sku": "lm09",
       "name": "Lightroom, Edit with Speed",
-      "description": "Tired of spending hours editing your images? Check out our course for fast results with little effort.", ,
+      "description": "Tired of spending hours editing your images? Check out our course for fast results with little effort.",
       "Software": "Lightroom",
       "price": 5.00,
       "category": 1,
@@ -327,9 +327,9 @@
     "fields": {
       "sku": "kri04",
       "name": "Krita Mask FREE",
-      "description": "Learn Masking in Krita complete free of cost for our members.", ,
+      "description": "Learn Masking in Krita complete free of cost for our members.",
       "Software": "Krita",
-      "price": 0.00
+      "price": 0.00,
       "category": 3,
       "rating": 4.9,
       "image": "Krita-Mask.jpg"
@@ -355,7 +355,7 @@
     "fields": {
       "sku": "kri06",
       "name": "Krita, Edit any image",
-      "description": "Learn to edit any pictures with the powerful free digital tool Krita.", ,
+      "description": "Learn to edit any pictures with the powerful free digital tool Krita.",
       "Software": "Krita",
       "price": 5.00,
       "category": 3,
@@ -397,7 +397,7 @@
     "fields": {
       "sku": "kri09",
       "name": "Krita Brushes Special Edition",
-      "description": "Learn everything about Krita's wast selection of amazing and powerful brushes.", ,
+      "description": "Learn everything about Krita's wast selection of amazing and powerful brushes.",
       "Software": "Champion",
       "price": 10.00,
       "category": 3,
