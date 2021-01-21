@@ -6,7 +6,10 @@ html {
 
 .blue-color {
     color: #5b80b2;
-}
+
+}.nav-background {
+    background-color: #f9f9f9;
+ }
 
 li {
     list-style-type: none;
@@ -81,6 +84,17 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+/*Product Page*/
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #ffffff;
+    z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
