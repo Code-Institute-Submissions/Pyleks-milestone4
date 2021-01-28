@@ -66,7 +66,7 @@
                 <div class="nav-placement d-flex ml-auto">
                     {% if request.user.is_authenticated %}
                         <li class="nav-item ">
-                            <a class="nav-link nav-link-tsize black-color" href="#">My Profile</a>
+                            <a class="nav-link nav-link-tsize black-color" href="{% url 'account_logout' %}">My Profile</a>
                         </li>
                     {% else %}
                         <li class="nav-item ">
