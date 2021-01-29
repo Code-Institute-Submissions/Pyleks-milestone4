@@ -14,79 +14,85 @@
 {% block content %}
     <div class="overlay"></div>
     <div class="container">
-        <div class="row top-margin">
-            <div class="col-sm-12 col-md-6 col-lg-6 col-lg-6 col-xl-6">
-                <div class="image-container">
-                    <a href="{{ product.image.url }}" target="_blank">
-                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                    </a>
-                </div>
+    <div class="row top-margin">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-lg-6 col-xl-6">
+            <div class="image-container">
+                <a href="{{ product.image.url }}" target="_blank">
+                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                </a>
             </div>
-            {#            Responsive container for all the shopping information#}
-            <div class="col-sm-12 col-md-6 col-lg-6 col-lg-4 col-xl-4">
-                <div class="mb-5 mt-md-5">
-                    {#                    Fetches the name and price#}
-                    <p class="txt-orange product-name-s">{{ product.name }}</p>
-                    <p class="text-left font-weight-bold">${{ product.price }}</p>
-                    <p class="small mt-1">
-                        {#                        If clicking the product name link it takes you back to the shopping page#}
-                        <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                            <i class="mr-1"></i>{{ product.category.friendly_name }}
-                        </a>
-                    </p>
-                    {#                    Fetches the product rating#}
-                    <small class="text-muted"><i class="mr-1"></i>{{ product.rating }} / 5</small>
-                    <p class="mt-3">{{ product.description }}</p>
-                    {#                    Allow user to user to decide quantity, calls add_to_bag function to send the information#}
-                    {#                    securely using csrf_token#}
-                    <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
-                        {% csrf_token %}
-                        <div class="form-row">
-                            <div class="col-12">
-                                <p class="mt-3"><strong>Quantity:</strong></p>
-                                <div class="form-group w-25">
-                                    <div class="input-group">
-{#                                        Buttons if I want to add them later#}
-{#                                        <div class="input-group-prepend">#}
-{#                                            <button class="decrement-qty btn btn-black rounded-0"#}
-{#                                                    data="item_id"#}
-{#                                            {{ product.id }}" id="decrement-qty_{{ product.id }}">#}
-{#                                            <span class="icon">#}
-{#                                                    </span>#}
-{#                                            </button>#}
-{#                                        </div>#}
-                                        <input class="form-control qty_input" type="number" name="quantity" value="1"
-                                               min="1" max="99" data-item_id="{{ product.id }}"
-                                               id="id_qty_{{ product.id }}">
-{#                                        Buttons if I want to add them later#}
-{#                                        <div class="input-group-prepend">#}
-{#                                            <button class="decrement-qty btn btn-black rounded-0"#}
-{#                                                    data="item_id"#}
-{#                                            {{ product.id }}" id="decrement-qty_{{ product.id }}">#}
-{#                                            <span class="icon">#}
-{#                                                    </span>#}
-{#                                            </button>#}
-                                        </div>
-                                    </div>
+        </div>
+        {#            Responsive container for all the shopping information#}
+        <div class="col-sm-12 col-md-6 col-lg-6 col-lg-4 col-xl-4">
+            <div class="mb-5 mt-md-5">
+                {#                    Fetches the name and price#}
+                <p class="txt-orange product-name-s">{{ product.name }}</p>
+                <p class="text-left font-weight-bold">${{ product.price }}</p>
+                <p class="small mt-1">
+                    {#                        If clicking the product name link it takes you back to the shopping page#}
+                    <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                        <i class="mr-1"></i>{{ product.category.friendly_name }}
+                    </a>
+                </p>
+                {#                    Fetches the product rating#}
+                <small class="text-muted"><i class="mr-1"></i>{{ product.rating }} / 5</small>
+                {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        <a href="{% url 'edit_product' product.id %}">Edit</a>
+                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                    </small>
+                {% endif %}
+                <p class="mt-3">{{ product.description }}</p>
+                {#                    Allow user to user to decide quantity, calls add_to_bag function to send the information#}
+                {#                    securely using csrf_token#}
+                <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="col-12">
+                            <p class="mt-3"><strong>Quantity:</strong></p>
+                            <div class="form-group w-25">
+                                <div class="input-group">
+                                    {#                                        Buttons if I want to add them later#}
+                                    {#                                        <div class="input-group-prepend">#}
+                                    {#                                            <button class="decrement-qty btn btn-black rounded-0"#}
+                                    {#                                                    data="item_id"#}
+                                    {#                                            {{ product.id }}" id="decrement-qty_{{ product.id }}">#}
+                                    {#                                            <span class="icon">#}
+                                    {#                                                    </span>#}
+                                    {#                                            </button>#}
+                                    {#                                        </div>#}
+                                    <input class="form-control qty_input" type="number" name="quantity" value="1"
+                                           min="1" max="99" data-item_id="{{ product.id }}"
+                                           id="id_qty_{{ product.id }}">
+                                    {#                                        Buttons if I want to add them later#}
+                                    {#                                        <div class="input-group-prepend">#}
+                                    {#                                            <button class="decrement-qty btn btn-black rounded-0"#}
+                                    {#                                                    data="item_id"#}
+                                    {#                                            {{ product.id }}" id="decrement-qty_{{ product.id }}">#}
+                                    {#                                            <span class="icon">#}
+                                    {#                                                    </span>#}
+                                    {#                                            </button>#}
                                 </div>
                             </div>
-                            <div class="col-12">
-                                {#                                Takes the user back to the product page#}
-                                <a href="{% url 'products' %}" class="pad-left-0 btn btn-outline-black mt-2">
-                                    <span class="text-uppercase btn btn-dark">Keep Shopping</span>
-                                </a>
-                                {#                                Calls the form to add the desired quantity#}
-                                <input type="submit" class="btn btn-success text-uppercase mt-2" value="Add to Bag">
-                            </div>
-                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="col-12">
+                        {#                                Takes the user back to the product page#}
+                        <a href="{% url 'products' %}" class="pad-left-0 btn btn-outline-black mt-2">
+                            <span class="text-uppercase btn btn-dark">Keep Shopping</span>
+                        </a>
+                        {#                                Calls the form to add the desired quantity#}
+                        <input type="submit" class="btn btn-success text-uppercase mt-2" value="Add to Bag">
+                    </div>
+                    <input type="hidden" name="redirect_url" value="{{ request.path }}">
             </div>
+            </form>
+        </div>
+    </div>
 
 {% endblock %}
 
 {% block postloadjs %}
-{{ block.super }}
+    {{ block.super }}
     {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
