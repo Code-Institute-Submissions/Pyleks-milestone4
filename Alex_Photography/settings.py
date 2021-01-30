@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
-DB = config('DATABASE_URL')
+DATABASE_URL = config('DATABASE_URL')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -124,7 +124,7 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'Alex_Photography.wsgi.application'
 
 DATABASES = {
-            'default': dj_database_url.parse(DB)
+            'default': config(DATABASE_URL)
         }
 
 # if 'DATABASE_URL' in DB:
