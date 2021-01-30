@@ -130,21 +130,21 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'Alex_Photography.wsgi.application'
 
-DATABASES = {
-            'default': dj_database_url.parse(DATABASE)
-        }
-
-# if 'DATABASE_URL' in DB:
-#     DATABASES = {
-#         'default': dj_database_url.parse(DB)
-#     }
-# else:
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+# DATABASES = {
+#             'default': dj_database_url.parse(DATABASE)
 #         }
-#     }
+
+if 'DEBUG_STATUS' == 0:
+    DATABASES = {
+        'default': dj_database_url.parse(DATABASE)
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
