@@ -135,17 +135,18 @@ WSGI_APPLICATION = 'Alex_Photography.wsgi.application'
 #             'default': dj_database_url.parse(DATABASE)
 #         }
 
-if 'DEBUG_STATUS' == 0:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
-    }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
+# if 'DEBUG_STATUS' == "0":
+DATABASES = {
+    'default': dj_database_url.parse(DATABASE)
+}
+
+# else:
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         }
+#     }
 
 
 
