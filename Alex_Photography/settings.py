@@ -23,11 +23,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
-DATABASE_URL = config('DATABASE_URL')
+DATABASE = config('DATABASE_URL')
+DEBUG_STATUS = config('DEBUG')
+
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG')
+DEBUG = bool(DEBUG_STATUS)
+
+
 
 ALLOWED_HOSTS = ['alex-digital-art.herokuapp.com', 'localhost', '127.0.0.1']
 
@@ -124,7 +128,7 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'Alex_Photography.wsgi.application'
 
 DATABASES = {
-            'default': config(DATABASE_URL)
+            'default': dj_database_url.parse(DATABASE)
         }
 
 # if 'DATABASE_URL' in DB:
