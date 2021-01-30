@@ -29,7 +29,7 @@ DB = config('DATABASE_URL')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ['alex-digital-art.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['alex-digital-art.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
