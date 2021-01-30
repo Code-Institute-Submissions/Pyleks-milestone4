@@ -137,7 +137,7 @@ WSGI_APPLICATION = 'Alex_Photography.wsgi.application'
 
 if 'DEBUG_STATUS' == 0:
     DATABASES = {
-        'default': dj_database_url.parse(DATABASE)
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
     DATABASES = {
