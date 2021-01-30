@@ -27,10 +27,13 @@ DATABASE = config('DATABASE_URL')
 DEBUG_STATUS = config('DEBUG')
 
 
-
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool(DEBUG_STATUS)
 
+DEBUG = True
+if DEBUG_STATUS == '1':
+    DEBUG = True
+else:
+    DEBUG = False
 
 
 ALLOWED_HOSTS = ['alex-digital-art.herokuapp.com', 'localhost', '127.0.0.1']
