@@ -1,0 +1,1 @@
+web: gunicorn Alex_Photography.wsgi:application
