@@ -113,6 +113,7 @@ def checkout(request):
 
 
 def checkout_success(request, order_number):
+
     """
     Handle successful checkouts
     """
@@ -150,6 +151,8 @@ def checkout_success(request, order_number):
     template = 'checkout/checkout_success.html'
     context = {
         'order': order,
+
     }
+    # print(total)
 
     return render(request, template, context)
