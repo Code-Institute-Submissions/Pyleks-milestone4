@@ -29,8 +29,6 @@ DEBUG_STATUS = config('DEBUG')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-
-DEBUG = True
 if DEBUG_STATUS == '1':
     DEBUG = True
 else:
@@ -146,8 +144,6 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
-
 
 
 # Password validation
