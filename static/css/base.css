@@ -1,7 +1,10 @@
 /*Global CSS*/
-
 html {
     height: 100%;
+}
+
+li {
+    list-style-type: none;
 }
 
 /*Global Font*/
@@ -10,34 +13,51 @@ body {
     font-family: 'Architects Daughter', cursive;
 }
 
-/*Text Color*/
+/*Colors */
 
-/*Background Color*/
+.white-color {
+    color: #FCF6F5FF !important;
+}
+
+.black-color {
+    color: #000000 !important;
+}
+
+.blue-color {
+    color: #5b80b2 !important;
+}
+
+/*Background Colors*/
+
+.gray-background {
+    background-color: #f9f9f9 !important;
+}
+
+/*Text Sizes */
+
+.text-xSmall {
+    font-size: 1.5em;
+}
+
+.text-small {
+    font-size: 1.8em
+}
+
+.text-medium {
+    font-size: 3.5em;
+}
+
+.text-large {
+
+}
+
 
 /*Navigation-Bar*/
 
 /*HomePage*/
 
 /*Product Page*/
-.blue-color {
-    color: #5b80b2;
 
-}
-.nav-background {
-    background-color: #f9f9f9;
- }
-
-li {
-    list-style-type: none;
-}
-
-.white-color {
-    color: #FCF6F5FF;
-}
-
-.black-color {
-    color: #000000;
-}
 
 /*nav text size*/
 
