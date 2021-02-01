@@ -106,7 +106,10 @@ h2 {
     z-index: -1;
 }
 
-
+/*Product Details*/
+.btn-padding {
+    padding-left: 0 !important;
+}
 /*Multi Page styling*/
 .border-black {
     border: 1px solid black !important;
