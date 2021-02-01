@@ -58,6 +58,12 @@ body {
 
 }
 
+h2 {
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
 .font-uppercase {
     text-transform: uppercase;
 }
