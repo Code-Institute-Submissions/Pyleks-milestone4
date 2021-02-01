@@ -84,10 +84,21 @@ body {
 }
 
 /*Product Page*/
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #ffffff;
+    z-index: -1;
+}
 
 
-/*nav text size*/
-
+/*Multi Page styling*/
+.border-black {
+    border: 1px solid black !important;
+}
 
 /*TODO check if this is needed anywhere*/
 
@@ -101,21 +112,8 @@ body {
 /*    color: white;*/
 /*}*/
 
-.border-black {
-    border: 1px solid black !important;
-}
 
-/*Product Page*/
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: #ffffff;
-    z-index: -1;
-}
-
+/*Message Container Style*/
 .message-container {
     position: fixed;
     top: 72px;
@@ -123,7 +121,6 @@ body {
     z-index: 99999999999;
 }
 /*Toaster CSS*/
-
 .custom-toast {
     overflow: visible;
 }
