@@ -33,7 +33,7 @@
                             <div class="col-xl-4 col-md-4 col-sm-6">
                                 <img class="img-fluid" src="{{ item.product.image.url }}">
                             </div>
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-5 col-sm-4">
                                 <div class="card-body">
                                     <p ><strong>{{ item.product.name }}</strong></p>
                                     <p class="small text-muted">SKU: {{ item.product.sku|upper }}</p>
@@ -83,10 +83,10 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-3">
+                            <div class="col-xl-4 col-md-3 col-sm-3">
                                 <div class="card-body">
                                     <p class="text-center">Subtotal </p>
-                                    <p class="text-center font-weight-bold lead">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                    <p class="text-center font-weight-bold lead"><u>${{ item.product.price | calc_subtotal:item.quantity }}</u></p>
                                 </div>
                             </div>
                         </div>
