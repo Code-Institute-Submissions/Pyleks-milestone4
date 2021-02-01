@@ -196,6 +196,9 @@ body {
         left: 0;
         z-index: 1030;
     }
+    .header-container {
+        padding-top: 15em;
+    }
 
     .container {
         max-width: 80%;
@@ -205,9 +208,6 @@ body {
         font-size: 5.5em !important;
     }
 
-    .callout-container {
-        margin: 5% 0 0 0 !important;
-    }
 
 }
 
@@ -309,7 +309,7 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 10em;
     }
     /*Home Page*/
     .callout-text {
@@ -345,13 +345,15 @@ input[name='q']::placeholder {
         min-width: 10em;
     }
 
+    /*Product Page*/
+    .header-container {
+        padding-top: 10em;
+    }
+
 }
 
 @media (max-width: 599px) {
     /*Home Page*/
-    .callout-container {
-        margin: 40% 0 20% 0;
-    }
     .callout-text {
         font-size: 2.5em !important;
     }
@@ -360,5 +362,10 @@ input[name='q']::placeholder {
     }
     .navbar-toggler {
         display: none;
+    }
+
+    /*Product Page*/
+    .header-container {
+        padding-top: 10em;
     }
 }
