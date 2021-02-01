@@ -66,6 +66,12 @@ body {
 /*Navigation-Bar*/
 
 /*HomePage*/
+.callout-text {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
 .shop-now-button {
     background: black;
     color: white;
@@ -183,9 +189,26 @@ body {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
     .container {
         max-width: 80%;
     }
+    /*Home Page*/
+    .callout-text {
+        font-size: 5.5em !important;
+    }
+
+    .callout-container {
+        margin: 5% 0 0 0 !important;
+    }
+
 }
 
 /*Allauth form formatting*/
@@ -276,7 +299,7 @@ input[name='q']::placeholder {
 }
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -287,5 +310,55 @@ input[name='q']::placeholder {
 
     .header-container {
         padding-top: 164px;
+    }
+    /*Home Page*/
+    .callout-text {
+        font-size: 5em !important;
+    }
+
+    .callout-container {
+        margin: 0 0 0 0 !important;
+    }
+
+    .callout-text {
+        font-size: 4.5em !important;
+    }
+    .shop-now-button {
+        min-width: 10em;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 600px) and (max-width: 991px) {
+    /*Home Page*/
+    .callout-container {
+        margin: 10% 0 0 0;
+    }
+    .callout-text {
+        font-size: 4.5em !important;
+    }
+    .shop-now-button {
+        min-width: 10em;
+    }
+
+}
+
+@media (max-width: 599px) {
+    /*Home Page*/
+    .callout-container {
+        margin: 40% 0 20% 0;
+    }
+    .callout-text {
+        font-size: 2.5em !important;
+    }
+    .shop-now-button {
+        min-width: 5em;
+    }
+    .navbar-toggler {
+        display: none;
     }
 }
