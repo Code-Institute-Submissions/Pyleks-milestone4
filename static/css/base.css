@@ -1,13 +1,29 @@
+/*Global CSS*/
+
 html {
     height: 100%;
 }
 
-/*Global Colors*/
+/*Global Font*/
 
+body {
+    font-family: 'Architects Daughter', cursive;
+}
+
+/*Text Color*/
+
+/*Background Color*/
+
+/*Navigation-Bar*/
+
+/*HomePage*/
+
+/*Product Page*/
 .blue-color {
     color: #5b80b2;
 
-}.nav-background {
+}
+.nav-background {
     background-color: #f9f9f9;
  }
 
@@ -45,7 +61,6 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Architects Daughter', cursive;
 }
 
 
