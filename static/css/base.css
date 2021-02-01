@@ -7,6 +7,13 @@ li {
     list-style-type: none;
 }
 
+body {
+    background: url('/media/Homepage_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+}
+
 /*Global Font*/
 
 body {
@@ -59,36 +66,13 @@ body {
 /*Navigation-Bar*/
 
 /*HomePage*/
-
-/*Product Page*/
-
-
-/*nav text size*/
-
-
-body {
-    background: url('/media/Homepage_background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-}
-
-
-.main-logo-link {
-    width: fit-content;
-}
-
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 260px;
+    min-width: 12em;
 }
 
-.btn-black {
-    background: black;
-    color: white;
-}
-
+/*TODO Possibly need to re-do this*/
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -98,6 +82,26 @@ body {
     background: #222;
     color: white;
 }
+
+/*Product Page*/
+
+
+/*nav text size*/
+
+
+/*TODO check if this is needed anywhere*/
+
+/*.main-logo-link {*/
+/*    width: fit-content;*/
+/*}*/
+
+/*TODO Might re-do the button*/
+/*.btn-black {*/
+/*    background: black;*/
+/*    color: white;*/
+/*}*/
+
+
 
 .text-black {
     color: #000 !important;
