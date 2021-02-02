@@ -61,4 +61,5 @@ The following things was required to make it possible:
 - Correctly use of size dimensions to work optimal on a website. 
 
 #### Typography
-I choose to go with 
+I choose to go with <strong>Architects Daughter Cursive</strong>, As this fits the landing page quite well.
+with the basic drawing style that is present and giving it some personality.(Impression always important)
