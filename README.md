@@ -51,7 +51,7 @@ straight forward, allowing for quick navigation.
 
 ### Additional Design Decisions.
 All pictures and backgrounds have been created specially for this site.
-As well all the product images have been created from scratch. So no content here was downloaded from anywhere.
+As well all the product images have been created from scratch, So no content was downloaded.
 
 The following things was required to make it possible:
 - Manually crafted characters.
@@ -60,7 +60,5 @@ The following things was required to make it possible:
 - Post processing in either Lightroom or Photoshop.
 - Correctly use of size dimensions to work optimal on a website. 
 
-
-
-
- 
+#### Typography
+I choose to go with 
