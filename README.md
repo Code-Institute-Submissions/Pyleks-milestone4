@@ -42,4 +42,25 @@ tutorials for.
 
 > Want to give their pictures more dept.  
 
-> Curious about how easy or difficult it is to learn the best digital tools for Photographers
+> Curious about how easy or difficult it is to learn the best digital tools for Photographers.
+
+## Design Decisions
+The design decisions here is following the Django Code Institute tutorial quite closely to get as much as possible
+working properly in the final product, but everything is simplified enough to make the user experience very
+straight forward, allowing for quick navigation.
+
+### Additional Design Decisions.
+All pictures and backgrounds have been created specially for this site.
+As well all the product images have been created from scratch. So no content here was downloaded from anywhere.
+
+The following things was required to make it possible:
+- Manually crafted characters.
+- Poses setup correctly.
+- Correct Lighting.
+- Post processing in either Lightroom or Photoshop.
+- Correctly use of size dimensions to work optimal on a website. 
+
+
+
+
+ 
