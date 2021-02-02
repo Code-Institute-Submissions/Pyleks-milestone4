@@ -63,3 +63,11 @@ The following things was required to make it possible:
 #### Typography
 I choose to go with <strong>Architects Daughter Cursive</strong>, As this fits the landing page quite well.
 with the basic drawing style that is present and giving it some personality.(Impression always important)
+
+#### Color Schemes
+![Color Scheme](media/Color-scheme.jpg)
+
+#### Let's Talk White
+One of the most important colors of the website due to acting as a drawing space, allowing me to project
+everything onto the surface itself, without concern of distorting colors to cause any issues. 
+
