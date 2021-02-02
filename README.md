@@ -16,3 +16,10 @@ to our members to Masterclasses for a small fee. Invest in your future with us t
 6. [Testing](#Testing)
 8. [Deployment](#Deployment)
 10. [Disclaimer](#Disclaimer)
+
+
+## User Experience
+Giving the visitor a quick view to what we have to offer, by putting our course applications on the top of the website
+providing transparency where it matters so our future clients knows exactly what we applications we provide
+tutorials for.
+
