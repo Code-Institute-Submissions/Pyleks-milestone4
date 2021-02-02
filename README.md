@@ -71,3 +71,47 @@ with the basic drawing style that is present and giving it some personality.(Imp
 One of the most important colors of the website due to acting as a drawing space, allowing me to project
 everything onto the surface itself, without concern of distorting colors to cause any issues. 
 
+## Technologies
+
+### Languages
+| Languages  | Usage |
+| :------------- | :------------- |
+| [HTML](https://www.w3schools.com/html/)  | Creating the entire foundation for the website.  |
+| [CSS](https://www.w3schools.com/css/)  | Applying styling across all pages.  |
+| [JavaScript](https://www.w3schools.com/js/)  | Mainly used for Stripe  |
+| [Python](https://www.python.org/)  | Runs the entire backend server code, (Django) |
+
+### Libraries
+
+|Frameworks  |Usage  |
+| :-------------| :-------------|
+| [Bootstrap](https://getbootstrap.com/)  | Styling Framework to get a modern feel to the website.  |
+| [Font Awesome](https://fontawesome.com/)  | Used for all website icons.  |
+
+
+### Python Libraries and Framework
+This list is longer then previous, so only key Libraries are added below.
+
+|Applications and Libraries  |Usage  |
+| :-------------| :-------------|
+| [Django](https://www.djangoproject.com/)  | Required to run all route operations in the code.  |
+| [STRIPE](https://stripe.com/en-ie)  | Handling all Payments  |
+| [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)  | Handling form logic  |
+| [Dj Database](https://pypi.org/project/dj-database-url/0.2.2/)  | Provides support between Django and Heroko Postgres database |
+| [Certifi](https://stripe.com/en-ie)  | For safe form handling, and verifying the SSL certificate  |
+
+
+### Database
+
+|Libraries  |Usage  |
+| :-------------| :-------------|
+| [Heroku Postgres](https://www.heroku.com/postgres)  | Free tier version of Postgres for all database management in production  |
+
+
+### Additional Tools
+
+|Applications  |Usage  |
+| :-------------| :-------------|
+| [Photoshop](https://photoshop.com/en)  | Photoshop used for all pictures on the website  |
+| [Lightroom](https://lightroom.adobe.com/)  | Lightroom additionally used on some of the Website work.  |
+| [Krita](https://krita.org/en/)  | Some Part of the pictures been managed in Krita.  |
