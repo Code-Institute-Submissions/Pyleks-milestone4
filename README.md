@@ -181,3 +181,39 @@ This list is longer then previous, so only key Libraries are added below.
 
 </details>
 <br>
+
+<details>
+<summary>Profile</summary>
+<br>
+
+
+![Profile Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Profile_Desktop.png?raw=true)
+![Profile Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Profile_Tablet.png?raw=true)
+![Profile Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Profile_Phone.png?raw=true)
+
+</details>
+<br>
+
+<details>
+<summary>Login</summary>
+<br>
+
+
+![Login Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Login_Desktop.png?raw=true)
+![Login Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Login_Tablet.png?raw=true)
+![Login Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Login_Phone.png?raw=true)
+
+</details>
+<br>
+
+<details>
+<summary>Login</summary>
+<br>
+
+
+![Register Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Register_Desktop.png?raw=true)
+![Register Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Register_Tablet.png?raw=true)
+![Register Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Register_Phone.png?raw=true)
+
+</details>
+<br>
