@@ -123,9 +123,9 @@ This list is longer then previous, so only key Libraries are added below.
 <br>
 
 
-![Main Page Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Landing%20Page%20Desktop.png)
-![Main Page Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Landing%20Page%20Tablet.png)
-![Main Page Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Landing%20Page%20Mobile.png)
+![Main Page Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Landing_Page_Desktop.png?raw=true)
+![Main Page Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Landing_Page_Tablet.png?raw=true)
+![Main Page Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Landing_Page_Mobile.png?raw=true)
 
 </details>
 
@@ -133,9 +133,9 @@ This list is longer then previous, so only key Libraries are added below.
 <summary>Product Page</summary>
 <br>
 
-![Product Page Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Page%20Desktop.png)
-![Product Page Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Page%20Tablet.png)
-![Product Page Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Page%20Phone.png)
+![Product Page Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Desktop.png?raw=true)
+![Product Page Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Page_Tablet.png?raw=true)
+![Product Page Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Page_Phone.png?raw=true)
 
 </details>
 
@@ -143,9 +143,9 @@ This list is longer then previous, so only key Libraries are added below.
 <summary>Product Details</summary>
 <br>
 
-![Product Details Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Details%20Desktop.png)
-![Product Details Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Details%20Page%20Tablet.png)
-![Product Details Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Details%20Page%20Phone.png)
+![Product Details Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Desktop.png?raw=true)
+![Product Details Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Page_Tablet.png?raw=true)
+![Product Details Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Page_Phone.png?raw=true)
 
 </details>
 
@@ -153,9 +153,9 @@ This list is longer then previous, so only key Libraries are added below.
 <summary>Shopping Bag</summary>
 <br>
 
-![Shopping Bag Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Shopping%20Bag%20Desktop.png)
-![Shopping Bag Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Shopping%20Bag%20Tablet.png)
-![Shopping Bag Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Shopping%20Bag%20Phone.png)
+![Shopping Bag Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Shopping_Bag_Desktop.png?raw=true)
+![Shopping Bag Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Shopping_Bag_Tablet.png?raw=true)
+![Shopping Bag Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Shopping_Bag_Phone.png?raw=true)
 
 </details>
 
@@ -164,8 +164,20 @@ This list is longer then previous, so only key Libraries are added below.
 <br>
 
 
-![Checkout Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Checkout%20Desktop.png)
-![Checkout Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Checkout%20Tablet.png)
-![Checkout Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Checkout%20Phone.png)
+![Checkout Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Checkout_Desktop.png?raw=true)
+![Checkout Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Checkout_Tablet.png?raw=true)
+![Checkout Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Checkout_Phone.png?raw=true)
 
 </details>
+
+<details>
+<summary>Checkout Success</summary>
+<br>
+
+
+![Checkout Success Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Checkout_success_Desktop.png?raw=true)
+![Checkout Success Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Checkout_Success_Tablet.png?raw=true)
+![Checkout Success Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Checkout_Success_Phone.png?raw=true)
+
+</details>
+<br>
