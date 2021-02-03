@@ -222,4 +222,40 @@ This list is longer then previous, so only key Libraries are added below.
 3. To Clone using command, simply type: ``git clone https://github.com/Pyleks/milestone4.git``
 4. Open [Milestone-Project-3](https://github.com/Pyleks/Pyleks/milestone_project_4)
 
-<strong>2. Running the website locally.</strong>
+<strong>2. Installing dependencies.</strong>
+1. Install virtualenv using pip3 ``pip3 install virtualenv``
+2. Make sure to be inside venv before installing requirements.txt file.
+3. Install requirements.txt by typing ``install -r requirements.txt``
+
+<strong>3. Setting up environmental variables</strong>
+Please note that the requirements.txt file comes with Decouple
+Python library, allowing the use of .env file.
+1. Create a .env file in the project directory.
+2. Filling out all the Keys, please see below for key name + where to be found.
+
+<strong>Stripe Public Key</strong>
+Variable = STRIPE_PUBLIC_KEY
+1. To get your key, visit: https://dashboard.stripe.com/test/dashboard
+2. Click Get your test API keys
+3. Copy the publishable Key.
+4. Make a format the following.
+``STRIPE_PUBLIC_KEY=key`` and save inside .env
+
+<strong>Stripe Secret Key</strong>
+Variable = STRIPE_SECRET_KEY
+1. Follow the same guide as above, just copy the secret key into the .env file
+``STRIPE_SECRET_KEY=key`` and save inside .env
+
+<strong>Secret_key</strong>
+To generate Django secret key, Google "Django Secret Key generator"
+1. Copy the key into format.
+``SECRET_KEY=key`` and save inside .env
+
+<strong>Debug</strong>
+To correctly turn debug on and off during production, add the following variable
+inside .env
+```DEBUG=1``` Debug Enabled
+```DEBUG=0``` Debug Disabled
+
+<strong>Please note, these variables will make it possible to run it locally, but requires
+more to run on Heroku</strong>
