@@ -180,7 +180,6 @@ This list is longer then previous, so only key Libraries are added below.
 ![Checkout Success Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Checkout_Success_Phone.png?raw=true)
 
 </details>
-<br>
 
 <details>
 <summary>Profile</summary>
@@ -192,7 +191,6 @@ This list is longer then previous, so only key Libraries are added below.
 ![Profile Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Profile_Phone.png?raw=true)
 
 </details>
-<br>
 
 <details>
 <summary>Login</summary>
@@ -204,7 +202,6 @@ This list is longer then previous, so only key Libraries are added below.
 ![Login Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Login_Phone.png?raw=true)
 
 </details>
-<br>
 
 <details>
 <summary>Login</summary>
