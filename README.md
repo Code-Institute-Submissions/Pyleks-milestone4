@@ -276,3 +276,23 @@ the database, and the final command
 ```python manage.py runserver```
 
 <strong>Deploying to Heroku</strong>
+1. Make sure to Push the project to Github, (also make sure .env is added to .gitignore)
+2. Open Heroku https://www.heroku.com/
+3. Create a new app.
+4. Open Settings, and reveal <strong>Config Vars</strong>
+
+<strong> Heroku Variables</strong>
+| Config Vars List  |
+| :-------------| 
+| AWS_ACCESS_KEY_ID |   
+| AWS_SECRET_ACCESS_KEY | 
+| AWS_STORAGE_BUCKET_NAME  |  
+| DATABASE_URL  |  
+| DEBUG  |  
+| EMAIL_HOST_PASS  |  
+| EMAIL_HOST_USER  |  
+| REGION_NAME  |  
+| SECRET_KEY  |  
+| STRIPE_PUBLIC_KEY  |  
+| STRIPE_SECRET_KEY  |  
+| USE_AWS  | 
