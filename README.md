@@ -133,9 +133,9 @@ This list is longer then previous, so only key Libraries are added below.
 <summary>Product Page</summary>
 <br>
 
-![Product Page Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Desktop.png?raw=true)
-![Product Page Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Page_Tablet.png?raw=true)
-![Product Page Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Details_Page_Phone.png?raw=true)
+![Product Page Desktop](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Page_Desktop.png?raw=true)
+![Product Page Tablet](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Page_Tablet.png?raw=true)
+![Product Page Phone](https://github.com/Pyleks/milestone4/blob/master/wireframes/Product_Page_Phone.png?raw=true)
 
 </details>
 
