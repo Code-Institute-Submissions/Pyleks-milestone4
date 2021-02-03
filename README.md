@@ -259,3 +259,20 @@ inside .env
 
 <strong>Please note, these variables will make it possible to run it locally, but requires
 more to run on Heroku</strong>
+
+<strong>Database migrations</strong>
+To enable all the database information.
+1. run the following commands ``python manage.py makemigrations``
+2. ``python manage.py migrate``
+3. ```python manage.py createsuperuser```
+
+<strong>Load Fixtures</strong>
+We need to bring all our product data.
+1. ``python manage.py loaddata categories.json``
+2. ``python manage.py loaddata products.json``
+
+So if the following have been done correctly, the settings.py should recognise 
+the database, and the final command
+```python manage.py runserver```
+
+<strong>Deploying to Heroku</strong>
