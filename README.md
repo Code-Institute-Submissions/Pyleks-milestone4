@@ -296,3 +296,20 @@ the database, and the final command
 | STRIPE_PUBLIC_KEY  |  
 | STRIPE_SECRET_KEY  |  
 | USE_AWS  | 
+
+
+<strong>Setting up Amazon S3 Bucket</strong>
+From Amazon web service (AWS) we need 3 keys for our static storage.
+
+| Config Vars List  |
+| :-------------| 
+| AWS_ACCESS_KEY_ID |   
+| AWS_SECRET_ACCESS_KEY | 
+| AWS_STORAGE_BUCKET_NAME  |  
+
+<strong>Setting Up postgres</strong>
+1. By going into Heroku.com, then click the app you made for this project.
+2. Click Resources.
+3. Type postgres.
+
+
