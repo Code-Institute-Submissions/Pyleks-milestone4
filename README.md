@@ -116,3 +116,56 @@ This list is longer then previous, so only key Libraries are added below.
 | [Lightroom](https://lightroom.adobe.com/)  | Lightroom additionally used on some of the Website work.  |
 | [Krita](https://krita.org/en/)  | Some Part of the pictures been managed in Krita.  |
 
+
+#### WireFrames
+<details>
+<summary>Main Page</summary>
+<br>
+
+
+![Main Page Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Landing%20Page%20Desktop.png)
+![Main Page Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Landing%20Page%20Tablet.png)
+![Main Page Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Landing%20Page%20Mobile.png)
+
+</details>
+
+<details>
+<summary>Product Page</summary>
+<br>
+
+![Product Page Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Page%20Desktop.png)
+![Product Page Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Page%20Tablet.png)
+![Product Page Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Page%20Phone.png)
+
+</details>
+
+<details>
+<summary>Product Details</summary>
+<br>
+
+![Product Details Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Details%20Desktop.png)
+![Product Details Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Details%20Page%20Tablet.png)
+![Product Details Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Product%20Details%20Page%20Phone.png)
+
+</details>
+
+<details>
+<summary>Shopping Bag</summary>
+<br>
+
+![Shopping Bag Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Shopping%20Bag%20Desktop.png)
+![Shopping Bag Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Shopping%20Bag%20Tablet.png)
+![Shopping Bag Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Shopping%20Bag%20Phone.png)
+
+</details>
+
+<details>
+<summary>Checkout</summary>
+<br>
+
+
+![Checkout Desktop](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Checkout%20Desktop.png)
+![Checkout Tablet](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Checkout%20Tablet.png)
+![Checkout Phone](https://github.com/Pyleks/milestone_project_4/blob/master/wireframes/Checkout%20Phone.png)
+
+</details>
