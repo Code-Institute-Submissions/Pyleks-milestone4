@@ -1,4 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 
-<h1>404 Test</h1>
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row top-margin">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+<div class="cover-container d-flex h-100 p-3 mx-auto flex-column error404_image"></div>
