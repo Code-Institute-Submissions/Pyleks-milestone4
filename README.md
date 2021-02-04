@@ -333,6 +333,29 @@ So I have gone through all the standard testing, such as Intended use, Features,
 - Aligns correctly.
 - Adds order history.
 
+## URL Injection
+During URL injects, we are attempting to use links to access profile, and generally preforming actions
+that otherwise should not be possible for a non registered user, or for a user trying to access someone
+else profile.
+
+#### Accessing Profile
+- I tried accessing profile in general using https://alex-digital-art.herokuapp.com/profile.
+This do not work since there is no ID in that string, so should not lead anywhere.
+
+
+#### Logging out without being logged in
+- I tried logging out without being logged in: https://alex-digital-art.herokuapp.com/accounts/logout/  
+
+#### Deleting a product
+- https://alex-digital-art.herokuapp.com/products/delete/32/  
+This thankfully did not work
+
+
+#### Adding a product
+- https://alex-digital-art.herokuapp.com/products/add/  
+This thankfully did not work
+
+
 
 ## Deployment
 <strong>1. Clone Website</strong>  
