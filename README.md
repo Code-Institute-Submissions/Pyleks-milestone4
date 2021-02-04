@@ -303,8 +303,8 @@ the database, and the final command
 This Variable make sure the website can run without collecting static files.
 So expect no CSS files or anything from the static folder to be applied.
 | DISABLE_COLLECTSTATIC = 1 |
-So add this if/when you want to run the website to see it load without.
-<strong>make sure to remove this variable once AWS is ready to go.</strong>
+So add this if/when you want to run the website to see it load without AWS.
+<strong>Make sure to remove this variable once AWS is ready to go.</strong>
 
 
 
@@ -324,6 +324,15 @@ From Amazon web service (AWS) we need 3 keys for our static storage.
 4. Once you do this you will get a new variable in Heroku Config Var <strong>DATABASE_URL </strong>
 5. There is no need to do anything with this URL, it is just required for the Heroku database to work.
 
+<strong> DEBUG </strong>
+If you want to go from production environment to developer.  
+DEBUG = 1  
+If you want to stay in production environment.
+DEBUG = 0.  
+Please note this will also initalize the email service that is only used in production.
+
+
+<strong> Getting email to work easly.</strong>
 
 
 
