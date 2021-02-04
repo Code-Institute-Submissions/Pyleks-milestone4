@@ -59,7 +59,7 @@
                     <input class="form-control me-2" type="text" name="q" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success me-auto" type="submit">Search</button>
                 </form>
-                <div class="nav-placement d-flex ml-auto">
+                <ul class="nav-placement d-flex ml-auto">
                     {% if request.user.is_authenticated %}
                         <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle text-small black-color" id="dropdownMenu"
@@ -98,7 +98,7 @@
                             {% endif %}
                         </a>
                     </li>
-                </div>
+                </ul>
 
             </div>
         </div>
