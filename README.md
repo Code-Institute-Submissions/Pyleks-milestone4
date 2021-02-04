@@ -377,17 +377,17 @@ I followed the standard list provided by Chrome.
 | Page        | Bugs           | Status  |
 |:------------- |:-------------| :-----:|
 | Main Page     | No issues found | Good |
-| Main Page(logged in)     | No issues found      | Good |
-| Product Page (Nog logged in) | No issues found  | Good |
-| Product Details(logged in Visitor) | No issues found     | Good |
+| Main Page logged in)    | No issues found      | Good |
+| Product Page Not logged in | No issues found  | Good |
+| Product Details logged in Visitor | No issues found     | Good |
 | Bag Page Not logged in | No issues found     | Good |
 | Bag Page Logged in | No issues found     | Good |
-| Checkout (Not logged in) | No issues found     | Good |
-| Checkout (Logged in)  | No issues found     | Good |
-| Order Summary (Not Logged in) | Button leading to incorrect location     | Fixed |
-| Order Summary (Logged in) | Button leading to incorrect location     | Fixed |
-| Profile (Logged in) | No issues found     | Good |
-| Product Management (Admin) | No issues found     | Good |
+| Checkout Not logged in | No issues found     | Good |
+| Checkout Logged in  | No issues found     | Good |
+| Order Summary Not Logged in | Button leading to incorrect location     | Fixed |
+| Order Summary Logged in | Button leading to incorrect location     | Fixed |
+| Profile Logged in | No issues found     | Good |
+| Product Management Admin | No issues found     | Good |
 
 ### URL Injection
 
@@ -398,6 +398,15 @@ No issues was found during this test.
 |:------------- |:-------------| :-----:|
 | Bag Page     | Did not scale with devices, so remade the displaying of information. | Fixed |
 
+### W3 CSS Validator
+Found no issues during check
+
+### JS Hint
+Was informed I ran wrong version fo JS, so changed to ES6.
+
+### PEP8
+I am using PEP8 Plugin, allowing me to monitor the Python code as it's typed.
+Main issues found was code blocks being too long, which was corrected during development.
 
 
 
