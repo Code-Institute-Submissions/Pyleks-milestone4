@@ -284,6 +284,7 @@ the database, and the final command
 <strong> Heroku Variables</strong>
 | Config Vars List  |
 | :-------------| 
+| DISABLE_COLLECTSTATIC = 1 |
 | AWS_ACCESS_KEY_ID |   
 | AWS_SECRET_ACCESS_KEY | 
 | AWS_STORAGE_BUCKET_NAME  |  
@@ -298,6 +299,15 @@ the database, and the final command
 | USE_AWS  | 
 
 
+<strong>Disable_Collectstatic</strong>
+This Variable make sure the website can run without collecting static files.
+So expect no CSS files or anything from the static folder to be applied.
+| DISABLE_COLLECTSTATIC = 1 |
+So add this if/when you want to run the website to see it load without.
+<strong>make sure to remove this variable once AWS is ready to go.</strong>
+
+
+
 <strong>Setting up Amazon S3 Bucket</strong>
 From Amazon web service (AWS) we need 3 keys for our static storage.
 
@@ -310,6 +320,10 @@ From Amazon web service (AWS) we need 3 keys for our static storage.
 <strong>Setting Up postgres</strong>
 1. By going into Heroku.com, then click the app you made for this project.
 2. Click Resources.
-3. Type postgres.
+3. Type Heroku Postgres, and add the free model.
+4. Once you do this you will get a new variable in Heroku Config Var <strong>DATABASE_URL </strong>
+5. There is no need to do anything with this URL, it is just required for the Heroku database to work.
+
+
 
 
