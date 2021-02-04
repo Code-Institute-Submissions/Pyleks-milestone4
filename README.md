@@ -66,7 +66,7 @@ from 400,403, 404 and 500, + made it a fair bit more interesting to navigate thr
 it into a truly unique e-commerce site. 
 
 #### Typography
-I choose to go with <strong>Architects Daughter Cursive</strong>, As this fits the landing page quite well.
+I choose to go with <strong>Architects Daughter Cursive</strong> and <strong>Roboto Condensed</strong> , As this fits the landing page quite well.
 with the basic drawing style that is present and giving it some personality.(Impression always important)
 
 #### Color Schemes
