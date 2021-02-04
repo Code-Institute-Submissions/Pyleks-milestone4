@@ -215,6 +215,21 @@ This list is longer then previous, so only key Libraries are added below.
 </details>
 <br>
 
+## Project overview (The 14 day challenge.)
+So the Full Stack Frameworks With Django tutorial + MS4 was all done in 14 days, and here is how I broke down this challenge.  
+With a project of this size, without knowing what end to start with required a strong plan.  
+
+1. I broke down the first 7 days to go through the course material, following extremely closely, because this had to work.  
+2. Then followed by the next 7 days to start recoding and gain a deeper understanding.  
+3. I started off by making sure everything worked locally, and on Heroku.  
+4. Then went through the project, and made sure everything was responsive.  
+5. Started customizing as much as possible to fit my own project, unfortunately this also lead to more code then I wanted to be 
+    reused from the tutorial.  
+6. Entering test phase to make sure things are working correctly, before applying fixes to everything that required a quick repair.  
+7. Finishing the Readme file.  
+
+
+
 ## Features
 All the features was developed quite close with the Fullstack tutorial brought by Code Institute.
 But comes with everything from  create, update and delete content as a Administrator, as well fully enabled
