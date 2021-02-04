@@ -334,20 +334,22 @@ by typing index.html, and error.html
 
 <strong> Permission </strong>  
 CORS Configuration code:
-[
-  {
-      "AllowedHeaders": [
-          "Authorization"
-      ],
-      "AllowedMethods": [
-          "GET"
-      ],
-      "AllowedOrigins": [
-          "*"
-      ],
-      "ExposeHeaders": []
-  }
-]
+````json
+      [
+          {
+              "AllowedHeaders": [
+                  "Authorization"
+              ],
+              "AllowedMethods": [
+                  "GET"
+              ],
+              "AllowedOrigins": [
+                  "*"
+              ],
+              "ExposeHeaders": []
+          }
+        ]
+  ````
 
 <strong> Buket Policy </strong>  
 Click Bucket Policy Generator
