@@ -393,6 +393,12 @@ I followed the standard list provided by Chrome.
 
 No issues was found during this test.
 
+### Responsiveness
+| Page        | Bugs           | Status  |
+|:------------- |:-------------| :-----:|
+| Bag Page     | Did not scale with devices, so remade the displaying of information. | Fixed |
+
+
 
 
 ## Deployment
