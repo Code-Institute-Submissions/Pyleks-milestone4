@@ -465,8 +465,7 @@ Run the following migrations to get the new database running.
 1. Inside Heroku, setup automatic deployment.
 A word of warning, automatic deployment, rebuilds the page when pushing to github.
 But also communicate to AWS, pushing your free tier usage limit, extremely fast. 
-4 days since I deployed to AWS.
-![AWS](https://github.com/Pyleks/milestone4/blob/master/media/AWS.png)
+
 
 
 
