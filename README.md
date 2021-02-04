@@ -61,8 +61,9 @@ The following things was required to make it possible:
 - Correctly use of size dimensions to work optimal on a website. 
 
 ### Ideal Design Additions.
-If it had been possible I would lovoe to have added a considerably big addition of creativity to everything 
-from 400,403, 404 and 500, + made it a fair bit more interesting to navigate through the site.
+If it had been possible I would love to have added a considerably big addition of creativity to everything 
+from 400,403, 404 and 500, + made it a fair bit more interesting to navigate through the site, and transforming
+it into a truly unique e-commerce site. 
 
 #### Typography
 I choose to go with <strong>Architects Daughter Cursive</strong>, As this fits the landing page quite well.
@@ -238,46 +239,95 @@ With a project of this size, without knowing what end to start with required a s
 
 
 
-## Features
+## Features  
 All the features was developed quite close with the Fullstack tutorial brought by Code Institute.
 But comes with everything from  create, update and delete content as a Administrator, as well fully enabled
 with Stripe API to allow test purchases, Email on confirmation, As well keeping track of all your orders with
 a registered account.
 
-### Home Page(Not registered user)
+### Home Page(Not registered user)  
 Comes with a quick menu to navigate to all the different products with a single click, or simply display display
 all products using the "Shop Now" button, access to register/login or simply use the search field to find your items
 fast and easy.
 
-### Product Page (Not Registered User)
+### Product Page (Not Registered User)  
 Display all products under the choosen category including sort by field and how many products are displayed.
 as well a price, star rating, picture of product.
 
-### Product Details (Not Registered User)
+### Product Details (Not Registered User)  
 Provides details about the product, and the opportunity to choose quantity, go back or keep shopping.
 Adding a product makes the toaster appear, and give a quick glance at what you just bought.
 
-### Shopping bag (Not Registered User)
+### Shopping bag (Not Registered User)  
 Give a overall glance at everything you just added, and give the buyer a chance to correct the amount before
 going to the checkout bag, or simply remove anything that might be there. 
 Also possible to navigate using the navbar from here into any of the sections on the website. 
 
-### Checkout (Not Registered User)
+### Checkout (Not Registered User)  
 Provides a opportunity to provide the checkout details, and use the test version of stripe with
 Card: 4242 4242 4242 4242  Expire Date: 04 / 24 CVV: 242 Zip: 42424.
 And it will take you successfully through the checkout process.
 
-### Post-Checkout (Not Registered User)
+### Post-Checkout (Not Registered User)  
 Provides all the uer details, + the total cost, as well a toast for successfully checking out.
 Informing they will receive a email with the confirmation order.
 
-### Website Overall as registered User
+### Website Overall as registered User  
 This will provide the best experience, as the navbar now give the option to use the profile
 to track orders, and save their information for further purchases to make the process easier for the user.
 
-## Features I would implement if time allowed it.
+## Features I would implement if time allowed it.  
 One of the biggest features would be to filter out all free offers to only show for registered users.
 And use the top of the page to entice the user to register, and hide it for registered users.
+
+## Testing  
+During the development (following CI tutorial) the page have been tested and broken a fair amount of times.  
+So I have gone through all the standard testing, such as Intended use, Features, Responsiveness, Security and Code Testing.
+
+#### The following have been tested.  
+- Intended use (Interactivity)
+- URL Injection (Security)
+- Responsiveness across devices
+- W3 HTML Validator using URL and copy/paste code
+- W3 CSS Validator
+- JS Hint
+- PEP8
+
+### Intended use on Chrome and Firefox  
+#### Home Page  
+- Opening the website, expecting everything to look in order from small to Ultra wide with icons intact.    
+- Testing all links to see if they are navigating to correct location.   
+- Testing to login from Home page.    
+- Tested if the search bar worked correctly and navigated as intended.   
+
+
+#### Product Page  
+- Opening the product page, expecting everything to align up correctly, and icons to be visible.  
+- Tried using the dropdown sort by, to see it filter correct.   
+- Tried all the links to make sure they are leading to the correct places.  
+
+#### Product Details  
+- Opening the page, checking everything align, and scale properly.  
+- Tried all the links, to make sure add to bag and keep shopping work as intended.   
+- Also made sure bag total updates in top right corner, and that the toast is appearing correctly.  
+
+#### Shopping bag  
+- Opening shopping bag, testing, update, remove to work as intended.  
+- All text and cards align correctly.  
+- Toast updates correctly.  
+- Keep shopping as well the Secure Checkout button works as intended.  
+
+#### Checkout
+- everything align correctly.
+- It fetches the profile information correct. 
+- Required fields requires to be filled out. 
+- Stripe process when required information is added.
+
+#### Checkout Success
+- Everything display correctly, with correct information.
+- The "Check out the latest deals" works correct.
+- everything align correctly.
+
 
 
 
