@@ -361,16 +361,16 @@ In this test the website was tested to all default device sizes provided my chro
 
 I followed the standard list provided by Chrome.
 
-360 x 640 Galaxy S5
-375 x 667 iPhone 6/7/8
-375 x 812 iPhone X
-411 x 731 Pixel 2
-411 x 823 Pixel 2 XL
-414 x 736 iPhone 6/7/8 Plus
-768 x 1024 iPad
-1024 x 1366 iPad Pro
-540 x 720 Surface Duo
-280 x 653 Galaxy Fold
+360 x 640 Galaxy S5  
+375 x 667 iPhone 6/7/8  
+375 x 812 iPhone X  
+411 x 731 Pixel 2  
+411 x 823 Pixel 2 XL  
+414 x 736 iPhone 6/7/8 Plus  
+768 x 1024 iPad  
+1024 x 1366 iPad Pro  
+540 x 720 Surface Duo  
+280 x 653 Galaxy Fold  
 
 ## Testing Summary
 ### Functionality
