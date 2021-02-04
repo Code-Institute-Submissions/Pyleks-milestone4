@@ -220,7 +220,6 @@ This list is longer then previous, so only key Libraries are added below.
 1. Go to [GitHub](https://github.com/Pyleks/milestone4)
 2. Click Code and copy the HTTPS link for cloning of the project.
 3. To Clone using command, simply type: ``git clone https://github.com/Pyleks/milestone4.git``
-4. Open [Milestone-Project-3](https://github.com/Pyleks/Pyleks/milestone_project_4)
 
 <strong>2. Installing dependencies.</strong>
 1. Install virtualenv using pip3 ``pip3 install virtualenv``
