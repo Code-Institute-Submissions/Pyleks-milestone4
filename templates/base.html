@@ -54,7 +54,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-black">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <a class="navbar-brand my-0 black-color text-medium" href="{% url 'home' %}">Alex Digital Art</a>
+                <a class="navbar-brand my-0 black-color draw-font text-medium" href="{% url 'home' %}">Alex Digital Art</a>
                 <form method="GET" action="{% url 'products' %}" class="d-flex ml-auto">
                     <input class="form-control me-2" type="text" name="q" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success me-auto" type="submit">Search</button>
@@ -62,7 +62,7 @@
                 <ul class="nav-placement d-flex ml-auto">
                     {% if request.user.is_authenticated %}
                         <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle text-small black-color" id="dropdownMenu"
+                            <a class="nav-link dropdown-toggle draw-font text-small black-color" id="dropdownMenu"
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                href="{% url 'profile' %}">My Profile</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenu">

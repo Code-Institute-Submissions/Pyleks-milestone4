@@ -1,31 +1,31 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle font-uppercase font-weight-bold black-color mr-5 text-xSmall " href="{% url 'products' %}?category=Photoshop,Lightroom,Krita" id="all-products-link" role="button" data-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle font-uppercase font-weight-bold black-color mr-5 text-xSmall draw-font " href="{% url 'products' %}?category=Photoshop,Lightroom,Krita" id="all-products-link" role="button" data-toggle="dropdown" aria-expanded="false">
                 All Products
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=price&direction=dsc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+            <div class="dropdown-menu border-0 draw-font" aria-labelledby="all-products-link">
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item draw-font">By Price</a>
+                <a href="{% url 'products' %}?sort=price&direction=dsc" class="dropdown-item draw-font ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item draw-font">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item">
-            <a class="font-uppercase font-weight-bold nav-link black-color mr-5 text-xSmall" href="{% url 'products' %}?category=Photoshop" id="clothing-link" aria-haspopup="true" aria-expanded="false">
+            <a class="font-uppercase font-weight-bold nav-link black-color draw-font mr-5 text-xSmall" href="{% url 'products' %}?category=Photoshop" id="clothing-link" aria-haspopup="true" aria-expanded="false">
                 Photoshop
             </a>
         </li>
 
         <li class="nav-item">
-            <a class="font-uppercase font-weight-bold nav-link black-color mr-5 text-xSmall" href="{% url 'products' %}?category=Lightroom" id="homeware-link" aria-haspopup="true" aria-expanded="false">
+            <a class="font-uppercase font-weight-bold nav-link black-color draw-font mr-5 text-xSmall" href="{% url 'products' %}?category=Lightroom" id="homeware-link" aria-haspopup="true" aria-expanded="false">
                 Lightroom
             </a>
         </li>
 
         <li class="nav-item">
-            <a class="font-uppercase font-weight-bold nav-link black-color text-xSmall" href="{% url 'products' %}?category=Krita" id="specials-link" aria-haspopup="true" aria-expanded="false">
+            <a class="font-uppercase font-weight-bold nav-link black-color draw-font text-xSmall" href="{% url 'products' %}?category=Krita" id="specials-link" aria-haspopup="true" aria-expanded="false">
                 Krita
             </a>
         </li>
