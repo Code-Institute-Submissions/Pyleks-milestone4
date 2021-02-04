@@ -299,7 +299,7 @@ the database, and the final command
 | USE_AWS  | 
 
 
-<strong>Disable_Collectstatic</strong>
+<strong>Disable_Collectstatic</strong>  
 This Variable make sure the website can run without collecting static files.
 So expect no CSS files or anything from the static folder to be applied.
 | DISABLE_COLLECTSTATIC = 1 |
@@ -308,7 +308,7 @@ So add this if/when you want to run the website to see it load without AWS.
 
 
 
-<strong>Setting up Amazon S3 Bucket</strong>
+<strong>Setting up Amazon S3 Bucket</strong>  
 From Amazon web service (AWS) we need 4 keys for our static storage.
 
 | Config Vars List  |
@@ -318,14 +318,14 @@ From Amazon web service (AWS) we need 4 keys for our static storage.
 | AWS_STORAGE_BUCKET_NAME  |  
 | REGION_NAME  |  
 
-<strong>Setting Up postgres</strong>
+<strong>Setting Up postgres</strong>  
 1. By going into Heroku.com, then click the app you made for this project.
 2. Click Resources.
 3. Type Heroku Postgres, and add the free model.
 4. Once you do this you will get a new variable in Heroku Config Var <strong>DATABASE_URL </strong>
 5. There is no need to do anything with this URL, it is just required for the Heroku database to work.
 
-<strong> DEBUG </strong>
+<strong> DEBUG </strong>  
 If you want to go from production environment to developer.  
 DEBUG = 1  
 If you want to stay in production environment.
@@ -333,16 +333,39 @@ DEBUG = 0.
 Please note this will also initalize the email service that is only used in production.
 
 
-<strong>Setup email fast</strong>
+<strong>Setup email fast</strong>  
 1. Enable Gmail 2 step verification.
 2. Click App Password
 3. In drop down menu, choose Mail. and Other then Type Django (Or what you prefer)
-4.Click Generate
-5. Add the variables below to your Heroko Config vars with the secret key, and your email address
-| EMAIL_HOST_PASS  |  Secret Key
-| EMAIL_HOST_USER  |  your email address
+4. Click Generate  
+5. Add the variables below to your Heroko Config vars with the secret key, and your email address  
+| EMAIL_HOST_PASS  |  Secret Key  
+| EMAIL_HOST_USER  |  your email address   
 
-<strong>Setting up a Django Secret Key</strong>
-1. Visit any django secret key generator, click generate.
-2. Open Heroku Config Vars, and paste in your secret Key
-| SECRET_KEY | key go here  |
+<strong>Setting up a Django Secret Key</strong>  
+1. Visit any django secret key generator, click generate.  
+2. Open Heroku Config Vars, and paste in your secret Key  
+| SECRET_KEY | key go here  |  
+
+<strong>Stripe_Keys</strong>  
+1. Login to Stripe.com  
+2. Navigate to dashboard  
+3. Full link: https://dashboard.stripe.com/test/dashboard  
+4. Create 2 variables in Heroku Config Vars.  
+| STRIPE_PUBLIC_KEY  |    
+| STRIPE_SECRET_KEY  |   
+5. Copy in the PUBLIC_KEY and SECRET_KEY into each of their respective fields.
+
+<strong>Migration</strong>  
+Make sure you have the correct Database set.  
+````python
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+````
+Run the following migrations to get the new database running.  
+1. ```python manage.py makemigrations```  
+2. ```python manage.py migrate```    
+3. ``python manage.py loaddata categories``    
+4. ``python manage.py loaddata products``  
+
