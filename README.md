@@ -345,6 +345,7 @@ This do not work since there is no ID in that string, so should not lead anywher
 
 #### Logging out without being logged in  
 - I tried logging out without being logged in: https://alex-digital-art.herokuapp.com/accounts/logout/  
+This did not really do anything useful
 
 #### Deleting a product  
 - https://alex-digital-art.herokuapp.com/products/delete/32/  
