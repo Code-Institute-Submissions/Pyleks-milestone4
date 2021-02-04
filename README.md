@@ -328,7 +328,10 @@ So I have gone through all the standard testing, such as Intended use, Features,
 - The "Check out the latest deals" works correct.
 - everything align correctly.
 
-
+#### My Profile
+- Updates and displays all information.
+- Aligns correctly.
+- Adds order history.
 
 
 ## Deployment
