@@ -372,6 +372,22 @@ I followed the standard list provided by Chrome.
 540 x 720 Surface Duo
 280 x 653 Galaxy Fold
 
+## Testing Summary
+### Functionality
+| Page        | Bugs           | Status  |
+|:------------- |:-------------| :-----:|
+| Main Page     | No issues found | Good |
+| Main Page(logged in)     | No issues found      | Good |
+| Product Page (Nog logged in) | No issues found  | Good |
+| Product Details(logged in Visitor) | No issues found     | Good |
+| Bag Page Not logged in | No issues found     | Good |
+| Bag Page Logged in | No issues found     | Good |
+| Checkout (Not logged in) | No issues found     | Good |
+| Checkout (Logged in)  | No issues found     | Good |
+| Order Summary (Not Logged in) | Button leading to incorrect location     | Fixed |
+| Order Summary (Logged in) | Button leading to incorrect location     | Fixed |
+| Profile (Logged in) | No issues found     | Good |
+| Product Management (Admin) | No issues found     | Good |
 
 ## Deployment
 <strong>1. Clone Website</strong>  
