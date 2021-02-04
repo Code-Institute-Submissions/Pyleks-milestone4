@@ -60,6 +60,10 @@ The following things was required to make it possible:
 - Post processing in either Lightroom or Photoshop.
 - Correctly use of size dimensions to work optimal on a website. 
 
+### Ideal Design Additions.
+If it had been possible I would lovoe to have added a considerably big addition of creativity to everything 
+from 400,403, 404 and 500, + made it a fair bit more interesting to navigate through the site.
+
 #### Typography
 I choose to go with <strong>Architects Daughter Cursive</strong>, As this fits the landing page quite well.
 with the basic drawing style that is present and giving it some personality.(Impression always important)
@@ -118,6 +122,10 @@ This list is longer then previous, so only key Libraries are added below.
 
 
 #### WireFrames
+All wireframes have been made in Balsamiq Cloud, as it offer a quick and solid way to move through the designing process
+with easy access to modifications when required.   
+
+
 <details>
 <summary>Main Page</summary>
 <br>
@@ -226,7 +234,7 @@ With a project of this size, without knowing what end to start with required a s
 5. Started customizing as much as possible to fit my own project, unfortunately this also lead to more code then I wanted to be 
     reused from the tutorial.  
 6. Entering test phase to make sure things are working correctly, before applying fixes to everything that required a quick repair.  
-7. Finishing the Readme file.  
+7. Finishing the README file.  
 
 
 
