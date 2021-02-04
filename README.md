@@ -248,6 +248,11 @@ And it will take you successfully through the checkout process.
 Provides all the uer details, + the total cost, as well a toast for successfully checking out.
 Informing they will receive a email with the confirmation order.
 
+### Website Overall as registered User
+This will provide the best experience, as the navbar now give the option to use the profile
+to track orders, and save their information for further purchases to make the process easier for the user.
+
+
 
 ## Deployment
 <strong>1. Clone Website</strong>  
