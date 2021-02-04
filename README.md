@@ -466,6 +466,3 @@ Run the following migrations to get the new database running.
 A word of warning, automatic deployment, rebuilds the page when pushing to github.
 But also communicate to AWS, pushing your free tier usage limit, extremely fast. 
 
-
-
-
