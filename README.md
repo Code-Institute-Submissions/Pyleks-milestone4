@@ -217,6 +217,9 @@ This list is longer then previous, so only key Libraries are added below.
 
 ## Deployment
 <strong>1. Clone Website</strong>  
+Please note this is for deployment to a local IDE.
+Running a command on GitPod require python3 manage.py runserver.  
+Running a command locally require python manage.py runserver.
 1. Go to [GitHub](https://github.com/Pyleks/milestone4)  
 2. Click Code and copy the HTTPS link for cloning of the project.  
 3. To Clone using command, simply type: ``git clone https://github.com/Pyleks/milestone4.git``  
@@ -275,10 +278,14 @@ So if the following have been done correctly, the settings.py should recognise
 the database, and the final command
 ```python manage.py runserver```
 
+<strong>Push the project files to your github</strong
+
 <strong>Deploying to Heroku</strong>  
 1. Make sure to Push the project to Github, (also make sure .env is added to .gitignore)
 2. Open Heroku https://www.heroku.com/
 3. Create a new app.
+4. Open Deploy, and connect your own github account, Do not enable Automatic Deploys yet
+(This will be covered at the bottom of the document)  
 4. Open Settings, and reveal <strong>Config Vars</strong>
 
 <strong> Heroku Variables</strong>  
@@ -453,4 +460,13 @@ Run the following migrations to get the new database running.
 2. ```python manage.py migrate```    
 3. ``python manage.py loaddata categories``    
 4. ``python manage.py loaddata products``  
+
+<strong>Push everything to github</strong>
+1. Inside Heroku, setup automatic deployment.
+A word of warning, automatic deployment, rebuilds the page when pushing to github.
+But also communicate to AWS, pushing your free tier usage limit, extremely fast. 
+4 days since I deployed to AWS.
+[AWS](#)
+
+
 
