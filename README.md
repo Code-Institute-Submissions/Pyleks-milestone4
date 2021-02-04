@@ -281,22 +281,22 @@ the database, and the final command
 3. Create a new app.
 4. Open Settings, and reveal <strong>Config Vars</strong>
 
-<strong> Heroku Variables</strong>
-| Config Vars List  |
-| :-------------| 
-| DISABLE_COLLECTSTATIC = 1 |
-| AWS_ACCESS_KEY_ID |   
-| AWS_SECRET_ACCESS_KEY | 
-| AWS_STORAGE_BUCKET_NAME  |  
-| DATABASE_URL  |  
-| DEBUG  |  
-| EMAIL_HOST_PASS  |  
-| EMAIL_HOST_USER  |  
-| REGION_NAME  |  
-| SECRET_KEY  |  
-| STRIPE_PUBLIC_KEY  |  
-| STRIPE_SECRET_KEY  |  
-| USE_AWS  | 
+<strong> Heroku Variables</strong>  
+| Config Vars List  |  Overview  
+| :-------------| :-------------|  
+| DISABLE_COLLECTSTATIC  |  1 |  
+| AWS_ACCESS_KEY_ID | AWS Access Key  |  
+| AWS_SECRET_ACCESS_KEY |  Secret Key    |  
+| AWS_STORAGE_BUCKET_NAME  |  Name you gave bucket    |  
+| DATABASE_URL  |  Heroku Postgres database URL     |  
+| DEBUG  |   0   |  
+| EMAIL_HOST_PASS  |  Password give by Gmail    |  
+| EMAIL_HOST_USER  |   Your email address    |  
+| REGION_NAME  |  eu-east-5 (example)      |  
+| SECRET_KEY  |  Django Secret Key      |  
+| STRIPE_PUBLIC_KEY  |  Obtained from Stripe Dashboard        |  
+| STRIPE_SECRET_KEY  |   Obtained from Stripe Dashboard      |  
+| USE_AWS  |    True      |   
 
 
 <strong>Disable_Collectstatic</strong>  
