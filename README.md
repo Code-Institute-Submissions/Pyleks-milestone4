@@ -216,21 +216,21 @@ This list is longer then previous, so only key Libraries are added below.
 <br>
 
 ## Deployment
-<strong>1. Clone Website</strong>
-1. Go to [GitHub](https://github.com/Pyleks/milestone4)
-2. Click Code and copy the HTTPS link for cloning of the project.
-3. To Clone using command, simply type: ``git clone https://github.com/Pyleks/milestone4.git``
+<strong>1. Clone Website</strong>  
+1. Go to [GitHub](https://github.com/Pyleks/milestone4)  
+2. Click Code and copy the HTTPS link for cloning of the project.  
+3. To Clone using command, simply type: ``git clone https://github.com/Pyleks/milestone4.git``  
 
-<strong>2. Installing dependencies.</strong>
-1. Install virtualenv using pip3 ``pip3 install virtualenv``
-2. Make sure to be inside venv before installing requirements.txt file.
-3. Install requirements.txt by typing ``install -r requirements.txt``
+<strong>2. Installing dependencies.</strong>  
+1. Install virtualenv using pip3 ``pip3 install virtualenv``  
+2. Make sure to be inside venv before installing requirements.txt file.  
+3. Install requirements.txt by typing ``install -r requirements.txt``  
 
-<strong>3. Setting up environmental variables</strong>  
-Please note that the requirements.txt file comes with Decouple
-Python library, allowing the use of .env file.
-1. Create a .env file in the project directory.
-2. Filling out all the Keys, please see below for key name + where to be found.
+<strong>3. Setting up environmental variables</strong>   
+Please note that the requirements.txt file comes with Decouple  
+Python library, allowing the use of .env file.  
+1. Create a .env file in the project directory.  
+2. Filling out all the Keys, please see below for key name + where to be found.  
 
 <strong>Stripe Public Key</strong>  
 Variable = STRIPE_PUBLIC_KEY
@@ -317,6 +317,89 @@ From Amazon web service (AWS) we need 4 keys for our static storage.
 | AWS_SECRET_ACCESS_KEY | 
 | AWS_STORAGE_BUCKET_NAME  |  
 | REGION_NAME  |  
+
+To obtain these keys we need to setup multiple things within AWS.
+please see all steps below.
+
+<strong> Create AWS S3 </strong>  
+1. Create name 
+2. Choose Region
+3. (If Public uncheck "Block all public access")
+4. Achknowlege that you know it will be set to public.
+
+<strong> Properties </strong>  
+Enable for website hosting, choose default index and error
+by typing index.html, and error.html
+(End point will show at the bottom)
+
+<strong> Permission </strong>  
+CORS Configuration code:
+[
+  {
+      "AllowedHeaders": [
+          "Authorization"
+      ],
+      "AllowedMethods": [
+          "GET"
+      ],
+      "AllowedOrigins": [
+          "*"
+      ],
+      "ExposeHeaders": []
+  }
+]
+
+<strong> Buket Policy </strong>  
+Click Bucket Policy Generator
+1. Select Type of Policy (S3 Bucket Policy)
+2. Effect: Allow
+3. Principal *
+4. Actions: GetObject
+5. Amazon Resource Name (ARN)Aquired from Edit Bucket Policy page.
+6. Click ADD STATEMENT
+7. Generate Policy and copy it
+8. Add it to the Edit Bucket Policy. 
+9. Add /* after Resource ARN.
+
+
+<strong> Edit Access Control List</strong>  
+1. Provide everyone public access (LIST)
+2. accept thaat we understand the changes.
+3. Click Save
+
+<strong> locate IAN to create access groups to manage everything</strong>  
+1.Under Access management, Click Group - Create a new Group
+2. We don't have any policy to attach yet, so just click next - next.
+3. Create Policy
+4. Choose Import Managed Policy, to edit an existing one.
+5. Locate AmazonS3FullAccess, and import that
+6. Find your Arn and to make it possible. under resource.
+``arn:aws:s3:::name-of-bucket``
+``arn:aws:s3:::name-of-bucket/*``
+We are using a list here. one item is the bucket itself,
+and the /* adds another rule for all files/folders in the bucket.
+
+7. Click Nex. add name and scription - Click Create Policy
+
+
+<strong> Attach Policy</strong>  
+Open the group we made earlier.
+Click Permissiongs
+and Attach Policy
+2. Search for the policy we made.
+and attach it.
+
+<strong> Create User</strong>  
+1. Make a username
+2. Give Programmatic access
+
+<strong> Add User to Group</strong>  
+1. Click the group. 
+2. CLick Next all the way to tend.
+3. Download CSV file
+
+<strong> CSV file contains user access key, and secret access key</strong>  
+
 
 <strong>Setting Up postgres</strong>  
 1. By going into Heroku.com, then click the app you made for this project.
