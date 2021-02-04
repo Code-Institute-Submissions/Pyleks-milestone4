@@ -389,6 +389,12 @@ I followed the standard list provided by Chrome.
 | Profile (Logged in) | No issues found     | Good |
 | Product Management (Admin) | No issues found     | Good |
 
+### URL Injection
+
+No issues was found during this test.
+
+
+
 ## Deployment
 <strong>1. Clone Website</strong>  
 Please note this is for deployment to a local IDE.
