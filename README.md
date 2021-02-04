@@ -252,6 +252,10 @@ Informing they will receive a email with the confirmation order.
 This will provide the best experience, as the navbar now give the option to use the profile
 to track orders, and save their information for further purchases to make the process easier for the user.
 
+## Features I would implement if time allowed it.
+One of the biggest features would be to filter out all free offers to only show for registered users.
+And use the top of the page to entice the user to register, and hide it for registered users.
+
 
 
 ## Deployment
