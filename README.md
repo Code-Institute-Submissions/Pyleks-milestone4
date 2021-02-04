@@ -106,7 +106,7 @@ This list is longer then previous, so only key Libraries are added below.
 |Libraries  |Usage  |
 | :-------------| :-------------|
 | [Heroku Postgres](https://www.heroku.com/postgres)  | Free tier version of Postgres for all database management in production  |
-
+| [AWS S3 Bucket](http://aws.com/)  | Free tier version for Storage of all static and media files  |
 
 ### Additional Tools
 
