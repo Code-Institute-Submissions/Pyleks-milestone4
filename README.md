@@ -463,6 +463,6 @@ Run the following migrations to get the new database running.
 
 <strong>Push everything to github</strong>
 1. Inside Heroku, setup automatic deployment.
-A word of warning, automatic deployment, rebuilds the page when pushing to github.
-But also communicate to AWS, pushing your free tier usage limit, extremely fast. 
+A word of warning, automatic deployment, rebuilds the page when pushing to github.  
+But also communicate to AWS, pushing the free tier usage limit very fast. 
 
