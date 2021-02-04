@@ -56,8 +56,8 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand my-0 black-color draw-font text-medium" href="{% url 'home' %}">Alex Digital Art</a>
                 <form method="GET" action="{% url 'products' %}" class="d-flex ml-auto">
-                    <input class="form-control me-2" type="text" name="q" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success me-auto" type="submit">Search</button>
+                    <input class="form-control me-2 draw-font" type="text" name="q" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success draw-font me-auto" type="submit">Search</button>
                 </form>
                 <ul class="nav-placement d-flex ml-auto">
                     {% if request.user.is_authenticated %}
