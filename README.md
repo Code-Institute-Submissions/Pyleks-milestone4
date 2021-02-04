@@ -309,13 +309,14 @@ So add this if/when you want to run the website to see it load without AWS.
 
 
 <strong>Setting up Amazon S3 Bucket</strong>
-From Amazon web service (AWS) we need 3 keys for our static storage.
+From Amazon web service (AWS) we need 4 keys for our static storage.
 
 | Config Vars List  |
 | :-------------| 
 | AWS_ACCESS_KEY_ID |   
 | AWS_SECRET_ACCESS_KEY | 
 | AWS_STORAGE_BUCKET_NAME  |  
+| REGION_NAME  |  
 
 <strong>Setting Up postgres</strong>
 1. By going into Heroku.com, then click the app you made for this project.
@@ -332,7 +333,16 @@ DEBUG = 0.
 Please note this will also initalize the email service that is only used in production.
 
 
-<strong> Getting email to work easly.</strong>
+<strong>Setup email fast</strong>
+1. Enable Gmail 2 step verification.
+2. Click App Password
+3. In drop down menu, choose Mail. and Other then Type Django (Or what you prefer)
+4.Click Generate
+5. Add the variables below to your Heroko Config vars with the secret key, and your email address
+| EMAIL_HOST_PASS  |  Secret Key
+| EMAIL_HOST_USER  |  your email address
 
-
-
+<strong>Setting up a Django Secret Key</strong>
+1. Visit any django secret key generator, click generate.
+2. Open Heroku Config Vars, and paste in your secret Key
+| SECRET_KEY | key go here  |
