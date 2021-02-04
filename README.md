@@ -215,6 +215,40 @@ This list is longer then previous, so only key Libraries are added below.
 </details>
 <br>
 
+## Features
+All the features was developed quite close with the Fullstack tutorial brought by Code Institute.
+But comes with everything from  create, update and delete content as a Administrator, as well fully enabled
+with Stripe API to allow test purchases, Email on confirmation, As well keeping track of all your orders with
+a registered account.
+
+### Home Page(Not registered user)
+Comes with a quick menu to navigate to all the different products with a single click, or simply display display
+all products using the "Shop Now" button, access to register/login or simply use the search field to find your items
+fast and easy.
+
+### Product Page (Not Registered User)
+Display all products under the choosen category including sort by field and how many products are displayed.
+as well a price, star rating, picture of product.
+
+### Product Details (Not Registered User)
+Provides details about the product, and the opportunity to choose quantity, go back or keep shopping.
+Adding a product makes the toaster appear, and give a quick glance at what you just bought.
+
+### Shopping bag (Not Registered User)
+Give a overall glance at everything you just added, and give the buyer a chance to correct the amount before
+going to the checkout bag, or simply remove anything that might be there. 
+Also possible to navigate using the navbar from here into any of the sections on the website. 
+
+### Checkout (Not Registered User)
+Provides a opportunity to provide the checkout details, and use the test version of stripe with
+Card: 4242 4242 4242 4242  Expire Date: 04 / 24 CVV: 242 Zip: 42424.
+And it will take you successfully through the checkout process.
+
+### Post-Checkout (Not Registered User)
+Provides all the uer details, + the total cost, as well a toast for successfully checking out.
+Informing they will receive a email with the confirmation order.
+
+
 ## Deployment
 <strong>1. Clone Website</strong>  
 Please note this is for deployment to a local IDE.
