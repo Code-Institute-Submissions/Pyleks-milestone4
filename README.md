@@ -278,7 +278,7 @@ So if the following have been done correctly, the settings.py should recognise
 the database, and the final command
 ```python manage.py runserver```
 
-<strong>Push the project files to your github</strong
+<strong>Push the project files to your github</strong>
 
 <strong>Deploying to Heroku</strong>  
 1. Make sure to Push the project to Github, (also make sure .env is added to .gitignore)
