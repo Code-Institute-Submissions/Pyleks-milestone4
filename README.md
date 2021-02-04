@@ -311,49 +311,49 @@ So I have gone through all the standard testing, such as Intended use, Features,
 - Tried all the links, to make sure add to bag and keep shopping work as intended.   
 - Also made sure bag total updates in top right corner, and that the toast is appearing correctly.  
 
-#### Shopping bag  
+#### Shopping bag   
 - Opening shopping bag, testing, update, remove to work as intended.  
 - All text and cards align correctly.  
 - Toast updates correctly.  
 - Keep shopping as well the Secure Checkout button works as intended.  
 
-#### Checkout
-- everything align correctly.
-- It fetches the profile information correct. 
-- Required fields requires to be filled out. 
-- Stripe process when required information is added.
+#### Checkout  
+- everything align correctly.  
+- It fetches the profile information correct.   
+- Required fields requires to be filled out.   
+- Stripe process when required information is added.  
 
-#### Checkout Success
-- Everything display correctly, with correct information.
-- The "Check out the latest deals" works correct.
-- everything align correctly.
+#### Checkout Success  
+- Everything display correctly, with correct information.  
+- The "Check out the latest deals" works correct.  
+- everything align correctly.  
 
-#### My Profile
-- Updates and displays all information.
-- Aligns correctly.
-- Adds order history.
+#### My Profile  
+- Updates and displays all information.  
+- Aligns correctly.  
+- Adds order history.  
 
-## URL Injection
+## URL Injection  
 During URL injects, we are attempting to use links to access profile, and generally preforming actions
 that otherwise should not be possible for a non registered user, or for a user trying to access someone
 else profile.
 
-#### Accessing Profile
-- I tried accessing profile in general using https://alex-digital-art.herokuapp.com/profile.
-This do not work since there is no ID in that string, so should not lead anywhere.
+#### Accessing Profile  
+- I tried accessing profile in general using https://alex-digital-art.herokuapp.com/profile.  
+This do not work since there is no ID in that string, so should not lead anywhere.  
 
 
-#### Logging out without being logged in
+#### Logging out without being logged in  
 - I tried logging out without being logged in: https://alex-digital-art.herokuapp.com/accounts/logout/  
 
-#### Deleting a product
+#### Deleting a product  
 - https://alex-digital-art.herokuapp.com/products/delete/32/  
-This thankfully did not work
+This thankfully did not work  
 
 
-#### Adding a product
+#### Adding a product  
 - https://alex-digital-art.herokuapp.com/products/add/  
-This thankfully did not work
+This thankfully did not work  
 
 
 
