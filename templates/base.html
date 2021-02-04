@@ -60,6 +60,7 @@
                     <button class="btn btn-outline-success draw-font me-auto" type="submit">Search</button>
                 </form>
                 <ul class="nav-placement d-flex ml-auto">
+{#                Check if the user is authenticated to "decide" what to display#}
                     {% if request.user.is_authenticated %}
                         <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle draw-font text-small black-color" id="dropdownMenu"
@@ -79,14 +80,14 @@
                             <a class="nav-link text-small black-color" href="{% url 'account_login' %}">Login</a>
                         </li>
                     {% endif %}
-
+{#                    Check if it's super user to display correct items#}
                     {% if request.user.is_superuser %}
                         <li class="nav-item ">
                             <a class="nav-link text-small black-color" href="{% url 'add_product' %}">Product
                                 Management</a>
                         </li>
                     {% endif %}
-
+{#                    Preforms the calculation to the navbar#}
                     <li class="nav-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %}
                         nav-link text-small black-color draw-font" href="{% url 'view_bag' %}" tabindex="-1"
@@ -103,6 +104,7 @@
             </div>
         </div>
     </nav>
+{#    To include the additional navbar for main header and mobile#}
     <div class="row">
         <nav class="navbar black-color navbar-expand-lg navbar-light w-100">
             <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -116,7 +118,7 @@
         </nav>
     </div>
 </header>
-
+{#Dictates what toast message will be displayed with message.level#}
 {% if messages %}
     <div class="message-container">
         {% for message in messages %}
