@@ -7,10 +7,10 @@ li {
     list-style-type: none;
 }
 
-body {
+.front-image {
     background: url('/media/Homepage_background.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 160px);
     color: #555;
 }
 
