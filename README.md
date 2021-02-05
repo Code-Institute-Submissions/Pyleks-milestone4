@@ -8,7 +8,7 @@ to our members to Masterclasses for a small fee. Invest in your future with us t
 
 
 ## Contents
-1. [UX](#UX)
+1. [UX](#User-Experience)
 2. [Design Decisions](#Design-Decisions)
 3. [Database](#Database)
 4. [Features](#Features)
@@ -50,7 +50,7 @@ working properly in the final product, but everything is simplified enough to ma
 straight forward, allowing for quick navigation.
 
 ### Additional Design Decisions.
-All pictures and backgrounds have been created specially for this site.
+All pictures and backgrounds have been created from ground up and used for this site.
 As well all the product images have been created from scratch, So no content was downloaded.
 
 The following things was required to make it possible:
@@ -222,12 +222,12 @@ with easy access to modifications when required.
 </details>
 <br>
 
-## Project overview (The 14 day challenge.)
+## Project overview (The 16 day challenge.)
 So the Full Stack Frameworks With Django tutorial + MS4 was all done in 14 days, and here is how I broke down this challenge.  
 With a project of this size, without knowing what end to start with required a strong plan.  
 
 1. I broke down the first 7 days to go through the course material, following extremely closely, because this had to work.  
-2. Then followed by the next 7 days to start recoding and gain a deeper understanding.  
+2. Then followed by the next 9 days to start recoding and gain a deeper understanding.  
 3. I started off by making sure everything worked locally, and on Heroku.  
 4. Then went through the project, and made sure everything was responsive.  
 5. Started customizing as much as possible to fit my own project, unfortunately this also lead to more code then I wanted to be 
@@ -658,4 +658,12 @@ Run the following migrations to get the new database running.
 1. Inside Heroku, setup automatic deployment.
 A word of warning, automatic deployment, rebuilds the page when pushing to github.  
 But also communicate to AWS, pushing the free tier usage limit very fast. 
+
+## Disclaimer
+This website is for educational purpose only.
+
+Favicon have been obtained from favicon generator  
+https://favicon.io/favicon-generator/
+
+Much thanks to the Code Institute tutor help to assist with any issues I had during development. 
 
