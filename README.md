@@ -23,7 +23,7 @@ Giving the visitor a quick view to what we have to offer, by putting our course 
 providing transparency where it matters so our future clients knows exactly what we applications we provide
 tutorials for.
 
-#### User Stories
+#### User Stories Visitor
 > Curious about Digital Art.
 
 > Want to learn how to use Photoshop.
@@ -44,6 +44,19 @@ tutorials for.
 
 > Curious about how easy or difficult it is to learn the best digital tools for Photographers.
 
+#### User Stories Store Owner
+>  Want to share high quality guides with a potential user base.  
+
+>  Tired of working a company and wanted to start their own with a wast amount of knowledge.  
+
+>  Want to create a community of like minded designers and provide guides to get people interested.  
+
+>  Want to help aspiring designers and photographers learn the best tools available.  
+
+>  Want to make the next Udemy of digital content, but starting small.  
+
+>  Want to create a user friendly site for potential new clients to find their next courses.  
+
 ## Design Decisions
 The design decisions here is following the Django Code Institute tutorial quite closely to get as much as possible
 working properly in the final product, but everything is simplified enough to make the user experience very
@@ -51,7 +64,7 @@ straight forward, allowing for quick navigation.
 
 ### Additional Design Decisions.
 All pictures and backgrounds have been created from ground up and used for this site.
-As well all the product images have been created from scratch, So no content was downloaded.
+As well all the product images have been created from scratch.
 
 The following things was required to make it possible:
 - Manually crafted characters.
