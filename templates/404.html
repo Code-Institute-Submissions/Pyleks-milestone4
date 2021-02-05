@@ -1,4 +1,3 @@
-{#Upload required files for homepage#}
 {% extends "base.html" %}
 {% load static %}
 
@@ -15,19 +14,15 @@
 
 {% block content %}
     <div class="image-404"></div>
-{#    <div class="container callout-container h-100">#}
-{#        <div class="row h-100">#}
-{#            <div class="col-7 col-md-7 my-auto">#}
-{#                <h1 class="callout-text draw-font font-uppercase black-color text-center">#}
-{#                    Alex Digital Art Tutorials For Beginners#}
-{#                </h1>#}
-{##}
-{#                <div class="my-5 d-flex justify-content-center">#}
-{#                    <h4>#}
-{#                        <a href="{% url 'products' %}?category=Photoshop,Lightroom,Krita" class="shop-now-button draw-font btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>#}
-{#                    </h4>#}
-{#                </div>#}
-{#            </div>#}
-{#        </div>#}
-{#    </div>#}
+    <div class="container callout-container h-100">
+        <div class="row h-100">
+            <div class="col-12 text center">
+                <h1 class="callout-text draw-font font-uppercase black-color text-center">
+                    Error 404
+                </h1>
+                <a href="{% url 'home' %}"
+                   class="shop-now-button draw-font btn btn-lg rounded-0 text-uppercase py-3">Back to Home Page</a>
+            </div>
+        </div>
+    </div>
 {% endblock %}
