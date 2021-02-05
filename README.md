@@ -1,4 +1,5 @@
 # Alex Digital Art
+{: .Alex-blue}
 
 ## Introduction
 
