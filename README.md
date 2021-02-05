@@ -18,7 +18,7 @@ to our members to Masterclasses for a small fee. Invest in your future with us t
 10. [Disclaimer](#Disclaimer)
 
 
-## Project overview (The 16 day challenge.)
+## Project overview (The 16 day challenge)
 So the Full Stack Frameworks With Django tutorial + MS4 was all done in 16 days, and here is how I broke down this challenge.  
 With a project of this size, without knowing what end to start with required a plan. 
 
@@ -76,7 +76,7 @@ The design decisions here is following the Django Code Institute tutorial quite 
 working properly in the final product, but everything is simplified enough to make the user experience very
 straight forward, allowing for quick navigation.
 
-### Additional Design Decisions.
+### Additional Design Decisions
 All pictures and backgrounds have been created from ground up and used for this site.
 As well all the product images have been created from scratch.
 
@@ -87,7 +87,7 @@ The following things was required to make it possible:
 - Post processing in either Lightroom or Photoshop.
 - Correctly use of size dimensions to work optimal on a website. 
 
-### Ideal Design Additions.
+### Ideal Design Additions
 As all the content is made from scratch, I was not able to produce all the content I wished to have added for this project.
 But would time allow it, I would like to "spice" up all the pages to help keep the proper feel to the site from beginning
 to the end, without disturbing the visitors experience with the website.   
@@ -289,7 +289,7 @@ Informing they will receive a email with the confirmation order.
 This will provide the best experience, as the navbar now give the option to use the profile
 to track orders, and save their information for further purchases to make the process easier for the user.
 
-## Features I would implement if time allowed it.  
+## Features I would implement if time allowed it  
 One of the biggest features would be to filter out all free offers to only show for registered users.
 And use the top of the page to entice the user to register, and hide it for registered users.
 
@@ -297,7 +297,7 @@ And use the top of the page to entice the user to register, and hide it for regi
 During the development (following CI tutorial) the page have been tested and broken a fair amount of times.  
 So I have gone through all the standard testing, such as Intended use, Features, Responsiveness, Security and Code Testing.
 
-#### The following have been tested.  
+#### The following have been tested  
 - Intended use (Interactivity)
 - URL Injection (Security)
 - Responsiveness across devices
