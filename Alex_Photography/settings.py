@@ -114,6 +114,7 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 SITE_ID = 1
+"""Set the authentication method for our Djanog application"""
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
@@ -215,6 +216,8 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = config('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY', '')
+
+"""Email settings"""
 
 if DEBUG_STATUS == '1':
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
