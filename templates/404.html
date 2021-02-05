@@ -13,23 +13,23 @@
 {#The main call out#}
 
 {% block content %}
-        <div class="container callout-container h-100">
-            <div class="row h-100">
-                <div class="col-12 text-center">
-                    <h1 class="callout-text draw-font font-uppercase black-color text-center error-margin">
-                        Error <u>404</u>
-                    </h1>
-                    <p class="display-4 draw-font">Ops! Something went wrong</p>
-                    <div class="my-5 d-flex justify-content-center">
-                        <h4>
-                            <a href="{% url 'home' %}"
-                               class="shop-now-button draw-font btn btn-lg rounded-0 text-uppercase py-3">Home Page</a>
-                        </h4>
-                    </div>
-
+    <div class="overlay"></div>
+    <div class="container callout-container h-100">
+        <div class="row h-100">
+            <div class="col-12 text-center">
+                <h1 class="callout-text draw-font font-uppercase black-color text-center error-margin">
+                    Error <u>404</u>
+                </h1>
+                <p class="display-4 draw-font">Ops! Something went wrong</p>
+                <div class="my-5 d-flex justify-content-center">
+                    <h4>
+                        <a href="{% url 'home' %}"
+                           class="shop-now-button draw-font btn btn-lg rounded-0 text-uppercase py-3">Home Page</a>
+                    </h4>
                 </div>
 
             </div>
+
         </div>
     </div>
 {% endblock %}
