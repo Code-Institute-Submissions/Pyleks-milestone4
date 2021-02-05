@@ -111,6 +111,12 @@ h2 {
     z-index: -1;
 }
 
+/*Hoover animation on product images*/
+.card-img-top:hover {
+    opacity:0.5;
+    transition: 0.5s;
+}
+
 /*Product Details*/
 
 
@@ -205,11 +211,7 @@ h2 {
     margin-top: 20%;
 }
 
-/*Hoover animation on product images*/
-.card-img-top:hover {
-    opacity:0.5;
-    transition: 0.5s;
-}
+
 
 /* -------------------------------- Media Queries */
 

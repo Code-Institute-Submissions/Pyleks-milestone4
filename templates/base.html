@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
               integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous"/>
         <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+        <link rel="icon" href="{% static 'favicon/favicon.png' %}" type="image/x-icon">
     {% endblock %}
 
     {% block extra_css %}
@@ -83,7 +84,7 @@
 {#                    Check if it's super user to display correct items#}
                     {% if request.user.is_superuser %}
                         <li class="nav-item ">
-                            <a class="nav-link text-small black-color" href="{% url 'add_product' %}">Product
+                            <a class="nav-link text-small black-color draw-font" href="{% url 'add_product' %}">Product
                                 Management</a>
                         </li>
                     {% endif %}

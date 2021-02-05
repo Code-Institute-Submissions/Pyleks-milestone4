@@ -8,6 +8,8 @@ from .forms import UserProfileForm
 from checkout.models import Order
 
 # Decorator for log in this way Django takes care of the security
+
+
 @login_required()
 def profile(request):
     """ Display the user's profile. """
