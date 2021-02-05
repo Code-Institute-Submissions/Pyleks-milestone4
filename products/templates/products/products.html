@@ -76,6 +76,10 @@
                         </p>
                     </div>
                 </div>
+{#                If no Products shows in search, a message appear that there is no products #}
+                {% if  products|length  < 1 %}
+                    <p class="display-4 text-center"> No Products found</p>
+                {% endif %}
                 <div class="row">
 {#                This lays out all the cards with the respecitive information, picture/name/price/star rating#}
                     {% for product in products %}
