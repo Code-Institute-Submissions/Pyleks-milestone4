@@ -14,13 +14,6 @@ li {
     color: #555;
 }
 
-.image-404 {
-    background: url('/media/404-img.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: #555;
-    z-index: 99999999999;
-}
 /*Global Font*/
 
 body {
@@ -207,6 +200,10 @@ h2 {
     overflow-y: auto;
 }
 
+/*400 and 500*/
+.error-margin {
+    margin-top: 20%;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
