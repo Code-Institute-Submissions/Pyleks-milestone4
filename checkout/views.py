@@ -153,6 +153,5 @@ def checkout_success(request, order_number):
         'order': order,
 
     }
-    # print(total)
 
     return render(request, template, context)

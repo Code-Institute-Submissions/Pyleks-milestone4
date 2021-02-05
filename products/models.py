@@ -16,6 +16,7 @@ class Category(models.Model):
         return self.friendly_name
 
 
+# Product model that get loaded with all the information from our fixtures
 class Product(models.Model):
     category = models.ForeignKey('Category', null=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)

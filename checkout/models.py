@@ -9,7 +9,7 @@ from django_countries.fields import CountryField
 from products.models import Product
 from profiles.models import UserProfile
 
-
+# Form that handle all our user information
 class Order(models.Model):
 
     order_number = models.CharField(max_length=32, null=False, editable=False)
@@ -49,7 +49,6 @@ class Order(models.Model):
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
 
-
     def save(self, *args, **kwargs):
         """
         Override the original save method to set the order number
@@ -70,7 +69,6 @@ class OrderLineItem(models.Model):
     product_size = models.CharField(max_length=2, null=True, blank=True)
     quantity = models.IntegerField(null=False, blank=False, default=0)
     lineitem_total = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False, editable=False)
-
 
     def save(self, *args, **kwargs):
         """
