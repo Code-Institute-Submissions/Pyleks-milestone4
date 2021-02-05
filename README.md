@@ -266,41 +266,41 @@ a registered account.
 ### Home Page(Not registered user)  
 Comes with a quick menu to navigate to all the different products with a single click, or simply display display
 all products using the "Shop Now" button, access to register/login or simply use the search field to find your items
-fast and easy.
+fast and easy.  
 
 ### Product Page (Not Registered User)  
-Display all products under the choosen category including sort by field and how many products are displayed.
-as well a price, star rating, picture of product.
+Display all products under the choosen category including sort by field and how many products are displayed.  
+as well a price, star rating, picture of product.  
 
 ### Product Details (Not Registered User)  
-Provides details about the product, and the opportunity to choose quantity, go back or keep shopping.
-Adding a product makes the toaster appear, and give a quick glance at what you just bought.
+Provides details about the product, and the opportunity to choose quantity, go back or keep shopping.  
+Adding a product makes the toaster appear, and give a quick glance at what you just bought.  
 
 ### Shopping bag (Not Registered User)  
-Give a overall glance at everything you just added, and give the buyer a chance to correct the amount before
-going to the checkout bag, or simply remove anything that might be there. 
-Also possible to navigate using the navbar from here into any of the sections on the website. 
+Give a overall glance at everything you just added, and give the buyer a chance to correct the amount before  
+going to the checkout bag, or simply remove anything that might be there.   
+Also possible to navigate using the navbar from here into any of the sections on the website.   
 
 ### Checkout (Not Registered User)  
-Provides a opportunity to provide the checkout details, and use the test version of stripe with
-Card: 4242 4242 4242 4242  Expire Date: 04 / 24 CVV: 242 Zip: 42424.
-And it will take you successfully through the checkout process.
+Provides a opportunity to provide the checkout details, and use the test version of stripe with  
+Card: 4242 4242 4242 4242  Expire Date: 04 / 24 CVV: 242 Zip: 42424.  
+And it will take you successfully through the checkout process.  
 
 ### Post-Checkout (Not Registered User)  
-Provides all the uer details, + the total cost, as well a toast for successfully checking out.
-Informing they will receive a email with the confirmation order.
+Provides all the uer details, + the total cost, as well a toast for successfully checking out.  
+Informing they will receive a email with the confirmation order.  
 
 ### Website Overall as registered User  
-This will provide the best experience, as the navbar now give the option to use the profile
-to track orders, and save their information for further purchases to make the process easier for the user.
+This will provide the best experience, as the navbar now give the option to use the profile  
+to track orders, and save their information for further purchases to make the process easier for the user.  
 
 ## Features I would implement if time allowed it  
-One of the biggest features would be to filter out all free offers to only show for registered users.
-And use the top of the page to entice the user to register, and hide it for registered users.
+One of the biggest features would be to filter out all free offers to only show for registered users.  
+And use the top of the page to entice the user to register, and hide it for registered users.  
 
 ## Testing  
 During the development (following CI tutorial) the page have been tested and broken a fair amount of times.  
-So I have gone through all the standard testing, such as Intended use, Features, Responsiveness, Security and Code Testing.
+So I have gone through all the standard testing, such as Intended use, Features, Responsiveness, Security and Code Testing.  
 
 #### The following have been tested  
 - Intended use (Interactivity)
@@ -365,16 +365,16 @@ This do not work since there is no ID in that string, so should not lead anywher
 
 #### Logging out without being logged in  
 - I tried logging out without being logged in: https://alex-digital-art.herokuapp.com/accounts/logout/  
-This did not really do anything useful
+This did not really do anything useful.  
 
 #### Deleting a product  
 - https://alex-digital-art.herokuapp.com/products/delete/32/  
-This thankfully did not work  
+This thankfully did not work.  
 
 
 #### Adding a product  
 - https://alex-digital-art.herokuapp.com/products/add/  
-This thankfully did not work  
+This thankfully also did not work.  
 
 Responsiveness
 In this test the website was tested to all default device sizes provided my chrome as well responsive slider across Chrome, Firefox.
@@ -419,7 +419,7 @@ No issues was found during this test.
 | Bag Page     | Did not scale with devices, so remade the displaying of information. | Fixed |
 
 ### W3 CSS Validator
-Found no issues during check
+Found no issues during check.  
 
 ### JS Hint
 Was informed I ran wrong version fo JS, so changed to ES6.
@@ -451,17 +451,17 @@ Python library, allowing the use of .env file.
 2. Filling out all the Keys, please see below for key name + where to be found.  
 
 <strong>Stripe Public Key</strong>  
-Variable = STRIPE_PUBLIC_KEY
-1. To get your key, visit: https://dashboard.stripe.com/test/dashboard
-2. Click Get your test API keys
-3. Copy the publishable Key.
-4. Make a format the following.
-``STRIPE_PUBLIC_KEY=key`` and save inside .env
+Variable = STRIPE_PUBLIC_KEY  
+1. To get your key, visit: https://dashboard.stripe.com/test/dashboard.  
+2. Click Get your test API keys.  
+3. Copy the publishable Key.  
+4. Make a format the following.  
+``STRIPE_PUBLIC_KEY=key`` and save inside .env  
 
 <strong>Stripe Secret Key</strong>  
-Variable = STRIPE_SECRET_KEY
-1. Follow the same guide as above, just copy the secret key into the .env file
-``STRIPE_SECRET_KEY=key`` and save inside .env
+Variable = STRIPE_SECRET_KEY  
+1. Follow the same guide as above, just copy the secret key into the .env file.  
+``STRIPE_SECRET_KEY=key`` and save inside .env  
 
 <strong>Secret_key</strong>  
 To generate Django secret key, Google "Django Secret Key generator"
@@ -475,7 +475,7 @@ inside .env
 ```DEBUG=0``` Debug Disabled
 
 <strong>Please note, these variables will make it possible to run it locally, but requires
-more to run on Heroku</strong>
+more to run on Heroku</strong>.  
 
 <strong>Database migrations</strong>  
 To enable all the database information.  
@@ -490,18 +490,18 @@ We need to bring all our product data.
 2. ``python manage.py loaddata products.json``
 
 So if the following have been done correctly, the settings.py should recognise 
-the database, and the final command
+the database, and the final command.  
 ```python manage.py runserver```
 
-<strong>Push the project files to your github</strong>
+<strong>Push the project files to your github</strong>.   
 
 <strong>Deploying to Heroku</strong>  
-1. Make sure to Push the project to Github, (also make sure .env is added to .gitignore)
-2. Open Heroku https://www.heroku.com/
+1. Make sure to Push the project to Github, (also make sure .env is added to .gitignore).  
+2. Open Heroku https://www.heroku.com/.  
 3. Create a new app.
-4. Open Deploy, and connect your own github account, Do not enable Automatic Deploys yet
+4. Open Deploy, and connect your own github account, Do not enable Automatic Deploys yet.  
 (This will be covered at the bottom of the document)  
-4. Open Settings, and reveal <strong>Config Vars</strong>
+4. Open Settings, and reveal <strong>Config Vars</strong>.  
 
 <strong> Heroku Variables</strong>  
 | Config Vars List  |  Overview  
@@ -521,17 +521,17 @@ the database, and the final command
 | USE_AWS  |    True      |   
 
 
-<strong>Disable_Collectstatic</strong>  
-This Variable make sure the website can run without collecting static files.
-So expect no CSS files or anything from the static folder to be applied.
-| DISABLE_COLLECTSTATIC = 1 |
-So add this if/when you want to run the website to see it load without AWS.
-<strong>Make sure to remove this variable once AWS is ready to go.</strong>
+<strong>Disable_Collectstatic</strong>    
+This Variable make sure the website can run without collecting static files.  
+So expect no CSS files or anything from the static folder to be applied.  
+| DISABLE_COLLECTSTATIC = 1 |  
+So add this if/when you want to run the website to see it load without AWS.  
+<strong>Make sure to remove this variable once AWS is ready to go.</strong>  
 
 
 
 <strong>Setting up Amazon S3 Bucket</strong>  
-From Amazon web service (AWS) we need 4 keys for our static storage.
+From Amazon web service (AWS) we need 4 keys for our static storage.  
 
 | Config Vars List  |
 | :-------------| 
@@ -544,8 +544,8 @@ To obtain these keys we need to setup multiple things within AWS.
 please see all steps below.
 
 <strong> Create AWS S3 </strong>  
-1. Create name 
-2. Choose Region
+1. Create name.  
+2. Choose Region.  
 3. (If Public uncheck "Block all public access")
 4. Achknowlege that you know it will be set to public.
 
@@ -575,35 +575,35 @@ CORS Configuration code:
 
 <strong> Buket Policy </strong>  
 Click Bucket Policy Generator
-1. Select Type of Policy (S3 Bucket Policy)
-2. Effect: Allow
-3. Principal *
-4. Actions: GetObject
-5. Amazon Resource Name (ARN)Aquired from Edit Bucket Policy page.
-6. Click ADD STATEMENT
-7. Generate Policy and copy it
-8. Add it to the Edit Bucket Policy. 
-9. Add /* after Resource ARN.
+1. Select Type of Policy (S3 Bucket Policy).  
+2. Effect: Allow.  
+3. Principal *  
+4. Actions: GetObject.  
+5. Amazon Resource Name (ARN)Aquired from Edit Bucket Policy page.  
+6. Click ADD STATEMENT.  
+7. Generate Policy and copy it.  
+8. Add it to the Edit Bucket Policy.   
+9. Add /* after Resource ARN.  
 
 
 <strong> Edit Access Control List</strong>  
-1. Provide everyone public access (LIST)
-2. accept thaat we understand the changes.
-3. Click Save
+1. Provide everyone public access (LIST).  
+2. accept thaat we understand the changes.  
+3. Click Save.  
 
 <strong> locate IAN to create access groups to manage everything</strong>  
-1.Under Access management, Click Group - Create a new Group
-2. We don't have any policy to attach yet, so just click next - next.
-3. Create Policy
-4. Choose Import Managed Policy, to edit an existing one.
-5. Locate AmazonS3FullAccess, and import that
-6. Find your Arn and to make it possible. under resource.
+1.Under Access management, Click Group - Create a new Group.  
+2. We don't have any policy to attach yet, so just click next - next.  
+3. Create Policy.  
+4. Choose Import Managed Policy, to edit an existing one.  
+5. Locate AmazonS3FullAccess, and import that.  
+6. Find your Arn and to make it possible. under resource.  
 ``arn:aws:s3:::name-of-bucket``
 ``arn:aws:s3:::name-of-bucket/*``
-We are using a list here. one item is the bucket itself,
-and the /* adds another rule for all files/folders in the bucket.
+We are using a list here. one item is the bucket itself,  
+and the /* adds another rule for all files/folders in the bucket.  
 
-7. Click Nex. add name and scription - Click Create Policy
+7. Click Nex. add name and scription - Click Create Policy.  
 
 
 <strong> Attach Policy</strong>  
@@ -614,50 +614,50 @@ and Attach Policy
 and attach it.
 
 <strong> Create User</strong>  
-1. Make a username
-2. Give Programmatic access
+1. Make a username.  
+2. Give Programmatic access.  
 
-<strong> Add User to Group</strong>  
-1. Click the group. 
-2. CLick Next all the way to tend.
-3. Download CSV file
+<strong> Add User to Group</strong>    
+1. Click the group.   
+2. CLick Next all the way to tend.  
+3. Download CSV file.  
 
 <strong> CSV file contains user access key, and secret access key</strong>  
 
 
 <strong>Setting Up postgres</strong>  
-1. By going into Heroku.com, then click the app you made for this project.
-2. Click Resources.
-3. Type Heroku Postgres, and add the free model.
-4. Once you do this you will get a new variable in Heroku Config Var <strong>DATABASE_URL </strong>
-5. There is no need to do anything with this URL, it is just required for the Heroku database to work.
+1. By going into Heroku.com, then click the app you made for this project.  
+2. Click Resources.  
+3. Type Heroku Postgres, and add the free model.  
+4. Once you do this you will get a new variable in Heroku Config Var <strong>DATABASE_URL </strong>  
+5. There is no need to do anything with this URL, it is just required for the Heroku database to work.  
 
 <strong> DEBUG </strong>  
 If you want to go from production environment to developer.  
 DEBUG = 1  
-If you want to stay in production environment.
-DEBUG = 0.  
-Please note this will also initalize the email service that is only used in production.
+If you want to stay in production environment.  
+DEBUG = 0.    
+Please note this will also initalize the email service that is only used in production.  
 
 
 <strong>Setup email fast</strong>  
-1. Enable Gmail 2 step verification.
-2. Click App Password
-3. In drop down menu, choose Mail. and Other then Type Django (Or what you prefer)
-4. Click Generate  
-5. Add the variables below to your Heroko Config vars with the secret key, and your email address  
+1. Enable Gmail 2 step verification.  
+2. Click App Password.  
+3. In drop down menu, choose Mail. and Other then Type Django (Or what you prefer).  
+4. Click Generate.  
+5. Add the variables below to your Heroko Config vars with the secret key, and your email address.  
 | EMAIL_HOST_PASS  |  Secret Key  
 | EMAIL_HOST_USER  |  your email address   
 
 <strong>Setting up a Django Secret Key</strong>  
 1. Visit any django secret key generator, click generate.  
-2. Open Heroku Config Vars, and paste in your secret Key  
+2. Open Heroku Config Vars, and paste in your secret Key.  
 | SECRET_KEY | key go here  |  
 
 <strong>Stripe_Keys</strong>  
-1. Login to Stripe.com  
-2. Navigate to dashboard  
-3. Full link: https://dashboard.stripe.com/test/dashboard  
+1. Login to Stripe.com.  
+2. Navigate to dashboard.  
+3. Full link: https://dashboard.stripe.com/test/dashboard.  
 4. Create 2 variables in Heroku Config Vars.  
 | STRIPE_PUBLIC_KEY  |    
 | STRIPE_SECRET_KEY  |   
@@ -684,16 +684,16 @@ But also communicate to AWS, pushing the free tier usage limit very fast.
 ## Disclaimer  
 This website is for educational purpose only.  
 
-Favicon have been obtained from favicon generator    
+Favicon have been obtained from favicon generator:   
 https://favicon.io/favicon-generator/  
 
-Krita Logo have been obtained from  
+Krita Logo have been obtained from:  
 https://en.wikipedia.org/wiki/Krita  
 
-Photoshop Logo have been obtained from  
+Photoshop Logo have been obtained from:  
 https://logos-world.net/photoshop-logo/  
 
-Lightroom logo have been obtained from  
+Lightroom logo have been obtained from:  
 https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_Lightroom_CC_logo.svg  
 
 Remaining content have been made by me.  
