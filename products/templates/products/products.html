@@ -1,6 +1,8 @@
+{#Loading the initial files and extend the base#}
 {% extends "base.html" %}
 {% load static %}
 
+{#To push content down on the page#}
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -10,11 +12,13 @@
 {% endblock %}
 
 {% block content %}
+{#    Overlay required to turn the background white#}
     <div class="overlay"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center mt-3">
                 <h2 class="font-uppercase draw-font">Products</h2>
+{#                The for loop pretty much rotate through categories, and finds information to start laying out the products#}
                 {% for c in current_categories %}
                     <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
                         <span class="p-2 mt-2 badge badge-white black-color rounded-0 border border-dark">{{ c.friendly_name }}</span>
@@ -28,6 +32,7 @@
                 <div class="row mt-1 mb-2">
                     <div class="col-6 my-auto d-flex justify-content-left">
                         <div class="sort-select-wrapper w-50">
+{#                        Sort slector allow the drop down menu to sort by different values#}
                             <select id="sort-selector"
                                     class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
                                 <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort
@@ -72,6 +77,7 @@
                     </div>
                 </div>
                 <div class="row">
+{#                This lays out all the cards with the respecitive information, picture/name/price/star rating#}
                     {% for product in products %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
@@ -81,6 +87,7 @@
                                              alt="{{ product.name }}">
                                     </a>
                                 {% else %}
+{#                                    If there is no image, this will be uploaded#}
                                     <a href="{% url 'product_detail' product.id %}">
                                         <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png"
                                              alt="{{ product.name }}">
@@ -101,7 +108,7 @@
                                                     </a>
                                                 </p>
                                             {% endif %}
-
+{#                                        displays product rating if there is any#}
                                             {% if product.rating %}
                                                 <small class="text-muted"><i
                                                         class="fas fa-star mr-1"></i>{{ product.rating }} / 5
@@ -109,6 +116,7 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
+{#                                        if the user is super user, edit/delete will be available#}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a>
@@ -120,6 +128,7 @@
                                 </div>
                             </div>
                         </div>
+{#                        For media queries to align correct on devices#}
                         {% if forloop.counter|divisibleby:1 %}
                             <div class="col-12 d-sm-none mb-5">
                                 <hr>
@@ -147,7 +156,7 @@
     </div>
 {% endblock %}
 
-
+{#Allows the sort to work#}
 {% block postloadjs %}
     {{ block.super }}
 
