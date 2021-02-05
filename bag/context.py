@@ -1,4 +1,3 @@
-# Code Mostly from Code Insitute
 from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
@@ -33,7 +32,7 @@ def bag_contents(request):
                     'product': product,
                     'size': size,
                 })
-
+    """Sets the free delivery threshold we got in settings.py, """
     if total < settings.FREE_DELIVERY_THRESHOLD:
         delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
         free_delivery_delta = settings.FREE_DELIVERY_THRESHOLD - total
@@ -43,7 +42,7 @@ def bag_contents(request):
         free_delivery_delta = 0
 
     grand_total = delivery + total
-
+    """Information we're passing along to our template"""
     context = {
         'bag_items': bag_items,
         'total': total,

@@ -7,6 +7,7 @@ class OrderLineItemAdminInline(admin.TabularInline):
     readonly_fields = ('lineitem_total', )
 
 
+# Required for models in the lineitem in administrator panel in Django
 class OrderAdmin(admin.ModelAdmin):
     inlines = (OrderLineItemAdminInline, )
 
@@ -42,4 +43,4 @@ class OrderAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Order, OrderAdmin)
-# Register your models here.
+
