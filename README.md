@@ -31,14 +31,14 @@ With a project of this size, without knowing what end to start with required a p
 6. Entering test phase to make sure things are working correctly, before applying fixes to everything that required a quick repair.  
 7. Finishing the README file.  
 
+## Live Website Link:
+https://alex-digital-art.herokuapp.com/
 
 ## User Experience
 Giving the visitor a quick view to what we have to offer, by putting our course applications on the top of the website
 providing transparency where it matters so our future clients knows exactly what we applications we provide
 tutorials for.
 
-## Live Website Link:
-https://alex-digital-art.herokuapp.com/
 
 #### User Stories Visitor
 > Curious about Digital Art.
