@@ -306,10 +306,12 @@ So I have gone through all the standard testing, such as Intended use, Features,
 - Intended use (Interactivity)
 - URL Injection (Security)
 - Responsiveness across devices
-- W3 HTML Validator using URL and copy/paste code
 - W3 CSS Validator
 - JS Hint
 - PEP8
+
+#### - W3 HTML Validator
+This did not work with Django, so had to try spot any issues manually.
 
 ### Intended use on Chrome and Firefox  
 #### Home Page  
