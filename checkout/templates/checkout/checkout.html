@@ -1,13 +1,15 @@
+{#Loading all required files#}
 {% extends "base.html" %}
 {% load static %}
 {% load bag_tools %}
 
-{#Code Mostly from Code Insitute#}
 
+{#Additional css#}
 {% block extra_css %}
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
 {% endblock %}
 
+{#Push contents down#}
 {% block page_header %}
     <div class="container header-container">
         <div class="row top-margin">
@@ -16,6 +18,7 @@
     </div>
 {% endblock %}
 
+{#Heading for Checkout + overlay#}
 {% block content %}
     <div class="overlay"></div>
     <div class="container">
@@ -37,6 +40,7 @@
                         <p class="mb-1 mt-0 small text-muted">Subtotal</p>
                     </div>
                 </div>
+{#                Go through all the items in the bag, and display them inside a card element#}
                 {% for item in bag_items %}
                     <div class="row">
                         <div class="col-2 mb-1">
@@ -50,6 +54,7 @@
                         </div>
                         <div class="col-7">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+{#                        Applies size if there is any, should be removed soon#}
                             <p class="my-0 small">Size:
                                 {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
                             <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
@@ -74,6 +79,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
+{#                The full checkout form#}
                 <p class="text-muted mb-3 px-3">Please fill out the form below to complete your order</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
@@ -98,6 +104,7 @@
                                 <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info"
                                        name="save-info" checked>
                             {% else %}
+{#                                allow them to create account or login mid process#}
                                 <label class="form-check-label" for="id-save-info">
                                     <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or
                                     <a class="text-info" href="{% url 'account_login' %}">login</a> to save this
@@ -108,7 +115,7 @@
                     </fieldset>
                     <fieldset class="px-3">
                         <legend class="fieldset-label small black-color px-2 w-auto">Payment</legend>
-                        <!-- A Stripe card element will go here -->
+{#                       Stripe card elements#}
                         <div class="mb-3" id="card-element"></div>
 
                         <!-- Used to display form errors -->
@@ -142,7 +149,7 @@
     </div>
 
 
-
+{#Loading spinner#}
     <div id="loading-overlay">
         <h1 class="text-light font-uppercase loading-spinner">
             <span class="icon">
