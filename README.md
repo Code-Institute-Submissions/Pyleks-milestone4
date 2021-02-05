@@ -679,11 +679,22 @@ Run the following migrations to get the new database running.
 A word of warning, automatic deployment, rebuilds the page when pushing to github.  
 But also communicate to AWS, pushing the free tier usage limit very fast. 
 
-## Disclaimer
-This website is for educational purpose only.
+## Disclaimer  
+This website is for educational purpose only.  
 
-Favicon have been obtained from favicon generator  
-https://favicon.io/favicon-generator/
+Favicon have been obtained from favicon generator    
+https://favicon.io/favicon-generator/  
 
-Much thanks to the Code Institute tutor help to assist with any issues I had during development. 
+Krita Logo have been obtained from  
+https://en.wikipedia.org/wiki/Krita  
+
+Photoshop Logo have been obtained from  
+https://logos-world.net/photoshop-logo/  
+
+Lightroom logo have been obtained from  
+https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_Lightroom_CC_logo.svg  
+
+Remaining content have been made by me.  
+
+Much thanks to the Code Institute tutor help to assist with any issues I had during development.   
 
