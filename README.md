@@ -107,6 +107,8 @@ One of the most important colors of the website due to acting as a drawing space
 everything onto the surface itself, without concern of distorting colors to cause any issues. 
 
 ## Technologies
+The website was originally going with Bootstrap 5 Beta, but after noticing some difficult issues,
+I reverted it back to Bootstrap 4.
 
 ### Languages
 | Languages  | Usage |
