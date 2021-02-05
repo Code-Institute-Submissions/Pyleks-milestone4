@@ -7,7 +7,7 @@ from .forms import UserProfileForm
 
 from checkout.models import Order
 
-
+# Decorator for log in this way Django takes care of the security
 @login_required()
 def profile(request):
     """ Display the user's profile. """
@@ -34,7 +34,7 @@ def profile(request):
 
     return render(request, template, context)
 
-
+# Our order confirmation with a message.
 @login_required()
 def order_history(request, order_number):
     order = get_object_or_404(Order, order_number=order_number)
