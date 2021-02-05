@@ -204,6 +204,13 @@ h2 {
 .error-margin {
     margin-top: 20%;
 }
+
+/*Hoover animation*/
+.card-img-top:hover {
+    opacity:0.5;
+    transition: 0.5s;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
