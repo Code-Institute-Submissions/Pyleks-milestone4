@@ -683,7 +683,7 @@ But also communicate to AWS, pushing the free tier usage limit very fast.
 
 ## Disclaimer  
 This website is for educational purpose only.  
-The base of this site is entirely from Code Institute, I have simply heavily modified it for my project.
+The base of this site is entirely from Code Institute Full Stack Developer Tutorial, I have simply heavily modified it for my project.
 At least in the places I knew how within the time frame I have.
 
 
