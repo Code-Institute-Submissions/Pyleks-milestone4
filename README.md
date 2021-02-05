@@ -18,6 +18,20 @@ to our members to Masterclasses for a small fee. Invest in your future with us t
 10. [Disclaimer](#Disclaimer)
 
 
+## Project overview (The 16 day challenge.)
+So the Full Stack Frameworks With Django tutorial + MS4 was all done in 16 days, and here is how I broke down this challenge.  
+With a project of this size, without knowing what end to start with required a plan. 
+
+1. I broke down the first 7 days to go through the course material, following extremely closely, because this had to work.  
+2. Then followed by the next 9 days to start recoding and gain a deeper understanding.  
+3. I started off by making sure everything worked locally, and on Heroku.  
+4. Then went through the project, and made sure everything was responsive.  
+5. Started customizing as much as possible to fit my own project, unfortunately this also lead to more code then I wanted to be 
+    reused from the tutorial.  
+6. Entering test phase to make sure things are working correctly, before applying fixes to everything that required a quick repair.  
+7. Finishing the README file.  
+
+
 ## User Experience
 Giving the visitor a quick view to what we have to offer, by putting our course applications on the top of the website
 providing transparency where it matters so our future clients knows exactly what we applications we provide
@@ -74,7 +88,9 @@ The following things was required to make it possible:
 - Correctly use of size dimensions to work optimal on a website. 
 
 ### Ideal Design Additions.
-With more time I would love to customize the page to a much further extent. 
+As all the content is made from scratch, I was not able to produce all the content I wished to have added for this project.
+But would time allow it, I would like to "spice" up all the pages to help keep the proper feel to the site from beginning
+to the end, without disturbing the visitors experience with the website.   
 
 #### Typography
 I choose to go with <strong>Architects Daughter Cursive</strong> and <strong>Roboto Condensed</strong> , As this fits the landing page quite well.
@@ -234,20 +250,6 @@ with easy access to modifications when required.
 
 </details>
 <br>
-
-## Project overview (The 16 day challenge.)
-So the Full Stack Frameworks With Django tutorial + MS4 was all done in 14 days, and here is how I broke down this challenge.  
-With a project of this size, without knowing what end to start with required a strong plan.  
-
-1. I broke down the first 7 days to go through the course material, following extremely closely, because this had to work.  
-2. Then followed by the next 9 days to start recoding and gain a deeper understanding.  
-3. I started off by making sure everything worked locally, and on Heroku.  
-4. Then went through the project, and made sure everything was responsive.  
-5. Started customizing as much as possible to fit my own project, unfortunately this also lead to more code then I wanted to be 
-    reused from the tutorial.  
-6. Entering test phase to make sure things are working correctly, before applying fixes to everything that required a quick repair.  
-7. Finishing the README file.  
-
 
 
 ## Features  
