@@ -1,1 +1,1 @@
-web: gunicorn Alex_Photography.wsgi:application
+web: gunicorn Alex_Digital_Art.wsgi:application
