@@ -94,7 +94,7 @@
                 </div>
             </div>
         {% endfor %}
-
+{#        Preforms the calculation on how much they need to pay#}
         <div class="col mt-5 float-right">
             <div class="row float-right">
                 <div class="card border-0">
@@ -123,6 +123,7 @@
                 </div>
             </div>
         </div>
+{#        If bag is empty, you can go back to Product page#}
     {% else %}
         <p class="lead mb-5">Your bag is empty.</p>
         <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
@@ -138,7 +139,7 @@
 {% block postloadjs %}
     {{ block.super }}
     {% include 'products/includes/quantity_input_script.html' %}
-
+{#Update cost when changing the number of quantity#}
     <script type="text/javascript">
         // Update quantity on click
         $('.update-link').click(function (e) {
