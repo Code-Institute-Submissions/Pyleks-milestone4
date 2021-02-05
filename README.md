@@ -61,9 +61,7 @@ The following things was required to make it possible:
 - Correctly use of size dimensions to work optimal on a website. 
 
 ### Ideal Design Additions.
-If it had been possible I would love to have added a considerably big addition of creativity to everything 
-from 400,403, 404 and 500, + made it a fair bit more interesting to navigate through the site, and transforming
-it into a truly unique e-commerce site. 
+With more time I would love to customize the page to a much further extent. 
 
 #### Typography
 I choose to go with <strong>Architects Daughter Cursive</strong> and <strong>Roboto Condensed</strong> , As this fits the landing page quite well.
